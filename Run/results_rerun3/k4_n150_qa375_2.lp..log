@@ -1,0 +1,98 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 15948 MiB (11934 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 /home/andreipopi/Documents/GitLab/pbaf-treedec/InstanceGenerator/instance_set/k4_n150_qa375_2.lp 
+
+running on 12 cores: 0-11
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.5.0-41-generic
+solver pid=95629, runsolver pid=95628
+Current StackSize limit: 8192 KiB
+
+exec failed: Permission denied
+Solver command line was: /home/andreipopi/Documents/GitLab/pbaf-treedec/InstanceGenerator/instance_set/k4_n150_qa375_2.lp 
+
+
+[startup+0.000358882 s]
+# the end of solver process 95629 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.000725 s, system=0 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+Child status: 127
+Real time (s): 0.000382963
+CPU time (s): 0.000725
+CPU user time (s): 0.000725
+CPU system time (s): 0
+CPU usage (%): 189.314
+Max. virtual memory (cumulated for all children) (KiB): 0
+Max. memory (cumulated for all children) (KiB): 0
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.000725
+system time used= 0
+maximum resident set size= 2944
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 82
+page faults= 0
+swaps= 0
+block input operations= 0
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 1
+involuntary context switches= 0
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 95629
+#   total CPU time (s): 0.000725
+#   total CPU user time (s): 0.000725
+#   total CPU system time (s): 0
+
+??? end of timestamper thread
+runsolver used 0.017063 second user time and 0.017063 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 /home/andreipopi/Documents/GitLab/pbaf-treedec/InstanceGenerator/instance_set/k4_n150_qa375_2.lp"
+	User time (seconds): 0.01
+	System time (seconds): 0.01
+	Percent of CPU this job got: 23%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 370
+	Voluntary context switches: 6
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

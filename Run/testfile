@@ -1,0 +1,16 @@
+./call_solver_td_python_spbaf_st.sh;;td-python-spbaf-st
+./call_solver_td_python_dpbaf_st.sh;;td-python-dpbaf-st
+
+./call_solver_td_python_spbaf_dadm.sh;;td-python-spbaf-dadm
+./call_solver_td_python_spbaf_sadm.sh;;td-python-spbaf-sadm
+./call_solver_td_python_spbaf_cadm.sh;;td-python-spbaf-cadm
+./call_solver_td_python_spbaf_dcom.sh;;td-python-spbaf-dcom
+./call_solver_td_python_spbaf_scom.sh;;td-python-spbaf-scom
+./call_solver_td_python_spbaf_ccom.sh;;td-python-spbaf-ccom
+
+./call_solver_td_python_dpbaf_dadm.sh;;td-python-dpbaf-dadm
+./call_solver_td_python_dpbaf_sadm.sh;;td-python-dpbaf-sadm
+./call_solver_td_python_dpbaf_cadm.sh;;td-python-dpbaf-cadm
+./call_solver_td_python_dpbaf_dcom.sh;;td-python-dpbaf-dcom
+./call_solver_td_python_dpbaf_scom.sh;;td-python-dpbaf-scom
+./call_solver_td_python_dpbaf_ccom.sh;;td-python-dpbaf-ccom

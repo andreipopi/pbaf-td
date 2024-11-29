@@ -1,0 +1,1 @@
+python3 /home/andreipopi/Documents/GitLab/pbaf-treedec/Pext/verification/post_order_dpbaf_scom.py $1 d

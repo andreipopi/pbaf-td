@@ -1,0 +1,123 @@
+
+dpbaf-cadm
+Bag size 3 : 0 unsolved instances ( 2 instances )
+Bag size 4 : 0 unsolved instances ( 14 instances )
+Bag size 5 : 1 unsolved instances ( 20 instances )
+Bag size 6 : 11 unsolved instances ( 24 instances )
+Bag size 7 : 13 unsolved instances ( 16 instances )
+Bag size 8 : 3 unsolved instances ( 3 instances )
+
+
+spbaf-cadm
+Bag size 3 : 0 unsolved instances ( 4 instances )
+Bag size 4 : 0 unsolved instances ( 18 instances )
+Bag size 5 : 0 unsolved instances ( 22 instances )
+Bag size 6 : 7 unsolved instances ( 23 instances )
+Bag size 7 : 12 unsolved instances ( 14 instances )
+Bag size 8 : 2 unsolved instances ( 2 instances )
+
+dpbaf-ccom
+
+Bag size 3 : 0 unsolved instances ( 2 instances )
+Bag size 4 : 0 unsolved instances ( 14 instances )
+Bag size 5 : 0 unsolved instances ( 20 instances )
+Bag size 6 : 8 unsolved instances ( 23 instances )
+Bag size 7 : 13 unsolved instances ( 17 instances )
+Bag size 8 : 2 unsolved instances ( 3 instances )
+
+spbaf-ccom
+Bag size 3 : 0 unsolved instances ( 4 instances )
+Bag size 4 : 0 unsolved instances ( 18 instances )
+Bag size 5 : 0 unsolved instances ( 22 instances )
+Bag size 6 : 4 unsolved instances ( 23 instances )
+Bag size 7 : 11 unsolved instances ( 14 instances )
+Bag size 8 : 2 unsolved instances ( 2 instances )
+
+
+
+dpbaf-dadm
+
+Bag size 3 : 0 unsolved instances ( 2 instances )
+Bag size 4 : 0 unsolved instances ( 14 instances )
+Bag size 5 : 1 unsolved instances ( 20 instances )
+Bag size 6 : 11 unsolved instances ( 24 instances )
+Bag size 7 : 13 unsolved instances ( 16 instances )
+Bag size 8 : 3 unsolved instances ( 3 instances )
+
+spbaf-dadm
+Bag size 3 : 0 unsolved instances ( 4 instances )
+Bag size 4 : 0 unsolved instances ( 18 instances )
+Bag size 5 : 1 unsolved instances ( 22 instances )
+Bag size 6 : 9 unsolved instances ( 23 instances )
+Bag size 7 : 14 unsolved instances ( 14 instances )
+Bag size 8 : 2 unsolved instances ( 2 instances )
+
+
+dpbaf-dcom
+Bag size 3 : 0 unsolved instances ( 2 instances )
+Bag size 4 : 0 unsolved instances ( 14 instances )
+Bag size 5 : 0 unsolved instances ( 20 instances )
+Bag size 6 : 9 unsolved instances ( 24 instances )
+Bag size 7 : 13 unsolved instances ( 17 instances )
+Bag size 8 : 2 unsolved instances ( 3 instances )
+
+
+spbaf-dcom
+Bag size 3 : 0 unsolved instances ( 4 instances )
+Bag size 4 : 0 unsolved instances ( 18 instances )
+Bag size 5 : 0 unsolved instances ( 22 instances )
+Bag size 6 : 4 unsolved instances ( 23 instances )
+Bag size 7 : 12 unsolved instances ( 14 instances )
+Bag size 8 : 2 unsolved instances ( 2 instances )
+
+dpbaf-sadm
+Bag size 3 : 0 unsolved instances ( 2 instances )
+Bag size 4 : 0 unsolved instances ( 14 instances )
+Bag size 5 : 1 unsolved instances ( 20 instances )
+Bag size 6 : 13 unsolved instances ( 24 instances )
+Bag size 7 : 12 unsolved instances ( 16 instances )
+Bag size 8 : 3 unsolved instances ( 3 instances )
+
+
+
+spbaf-sadm
+Bag size 3 : 0 unsolved instances ( 4 instances )
+Bag size 4 : 0 unsolved instances ( 18 instances )
+Bag size 5 : 1 unsolved instances ( 22 instances )
+Bag size 6 : 8 unsolved instances ( 23 instances )
+Bag size 7 : 14 unsolved instances ( 14 instances )
+Bag size 8 : 2 unsolved instances ( 2 instances )
+
+dpbaf-scom
+Bag size 3 : 0 unsolved instances ( 2 instances )
+Bag size 4 : 0 unsolved instances ( 14 instances )
+Bag size 5 : 0 unsolved instances ( 20 instances )
+Bag size 6 : 9 unsolved instances ( 24 instances )
+Bag size 7 : 13 unsolved instances ( 17 instances )
+Bag size 8 : 2 unsolved instances ( 3 instances )
+
+
+spbaf-scom
+Bag size 3 : 0 unsolved instances ( 4 instances )
+Bag size 4 : 0 unsolved instances ( 18 instances )
+Bag size 5 : 0 unsolved instances ( 22 instances )
+Bag size 6 : 4 unsolved instances ( 23 instances )
+Bag size 7 : 12 unsolved instances ( 14 instances )
+Bag size 8 : 2 unsolved instances ( 2 instances )
+
+
+dpbaf-st
+Bag size 3 : 0 unsolved instances ( 2 instances )
+Bag size 4 : 0 unsolved instances ( 14 instances )
+Bag size 5 : 0 unsolved instances ( 19 instances )
+Bag size 6 : 0 unsolved instances ( 24 instances )
+Bag size 7 : 0 unsolved instances ( 19 instances )
+Bag size 8 : 0 unsolved instances ( 5 instances )
+
+spbaf-st
+Bag size 3 : 0 unsolved instances ( 4 instances )
+Bag size 4 : 0 unsolved instances ( 18 instances )
+Bag size 5 : 0 unsolved instances ( 21 instances )
+Bag size 6 : 0 unsolved instances ( 23 instances )
+Bag size 7 : 0 unsolved instances ( 15 instances )
+Bag size 8 : 0 unsolved instances ( 2 instances )

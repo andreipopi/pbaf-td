@@ -1,0 +1,83 @@
+k3_n5_qa7_1.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.4544, #   total CPU user time (s): 1.12196
+k3_n5_qa13_2.lp.td-python-spbaf-sadm,   3, td-python-spbaf-sadm, RESULT 1.0, #   total CPU user time (s): 1.17243
+k3_n5_qa3_3.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.4, #   total CPU user time (s): 6.92033
+k3_n5_qa5_4.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 1.0, #   total CPU user time (s): 7.92801
+k3_n10_qa23_1.lp.td-python-spbaf-sadm,   3, td-python-spbaf-sadm, RESULT 0.0038313216, #   total CPU user time (s): 2.3108
+k3_n10_qa7_2.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 0.27648, #   total CPU user time (s): 24.0616
+k3_n10_qa13_3.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.456008, #   total CPU user time (s): 5.32113
+k3_n10_qa10_4.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 1.0, #   total CPU user time (s): 5.85405
+k3_n20_qa56_1.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.4844, #   total CPU user time (s): 13.7213
+k3_n20_qa21_2.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 0.0753907359744, #   total CPU user time (s): 18.5859
+k3_n20_qa47_3.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.0094750656, #   total CPU user time (s): 5.58398
+k3_n20_qa16_4.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.13746441002112, #   total CPU user time (s): 23.3998
+k3_n50_qa46_1.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 1.1837348190349781e-05, #   total CPU user time (s): 30.3014
+k3_n50_qa25_2.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 0.0017912925852642285, #   total CPU user time (s): 41.8148
+k3_n50_qa79_3.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 3.4933497558925694e-05, #   total CPU user time (s): 50.5662
+k3_n50_qa91_4.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 9.246493056258523e-08, #   total CPU user time (s): 23.5321
+k3_n75_qa136_1.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 3.8405406818108446e-07, #   total CPU user time (s): 80.9125
+k3_n75_qa178_2.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 5.5890023784298984e-08, #   total CPU user time (s): 50.4488
+k3_n75_qa55_3.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 0.0001286842746580859, #   total CPU user time (s): 119.167
+k3_n75_qa210_4.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 6.61937072862218e-08, #   total CPU user time (s): 205.757
+k3_n100_qa29_1.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 2.1674086865789834e-10, #   total CPU user time (s): 249.765
+k3_n100_qa141_2.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 3.711320425983527e-08, #   total CPU user time (s): 54.607
+k3_n100_qa178_3.lp.td-python-spbaf-sadm,  8,  td-python-spbaf-sadm, TIMEOUT
+k3_n100_qa54_4.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 0.00013352063626024892, #   total CPU user time (s): 138.227
+k3_n150_qa256_1.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k3_n150_qa234_2.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 2.607125808663896e-07, #   total CPU user time (s): 234.156
+k3_n150_qa343_3.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 5.128159248770378e-14, #   total CPU user time (s): 135.748
+k3_n150_qa278_4.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 2.073368309712336e-16, #   total CPU user time (s): 186.568
+k4_n5_qa18_1.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.0686663701504, #   total CPU user time (s): 0.907076
+k4_n5_qa11_2.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.9, #   total CPU user time (s): 4.28512
+k4_n5_qa8_3.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.0984, #   total CPU user time (s): 2.70838
+k4_n5_qa3_4.lp.td-python-spbaf-sadm,   3, td-python-spbaf-sadm, RESULT 1.0, #   total CPU user time (s): 1.00698
+k4_n10_qa1_1.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 1.0, #   total CPU user time (s): 4.69268
+k4_n10_qa28_2.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 0.0230523396096, #   total CPU user time (s): 155.183
+k4_n10_qa8_3.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.08736, #   total CPU user time (s): 3.05554
+k4_n10_qa6_4.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.013914368, #   total CPU user time (s): 6.31532
+k4_n20_qa62_1.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.00675294706562112, #   total CPU user time (s): 16.6152
+k4_n20_qa39_2.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 0.5264896, #   total CPU user time (s): 100.493
+k4_n20_qa28_3.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 0.127604, #   total CPU user time (s): 23.2296
+k4_n20_qa57_4.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 0.0004187446111876244, #   total CPU user time (s): 26.5685
+k4_n50_qa80_1.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 1.474749110400423e-05, #   total CPU user time (s): 86.7175
+k4_n50_qa198_2.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 2.3521359913665166e-05, #   total CPU user time (s): 105.058
+k4_n50_qa89_3.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 2.4344119687576252e-05, #   total CPU user time (s): 61.1351
+k4_n50_qa48_4.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k4_n75_qa162_1.lp.td-python-spbaf-sadm,  6,  td-python-spbaf-sadm, TIMEOUT
+k4_n75_qa80_2.lp.td-python-spbaf-sadm,  6,  td-python-spbaf-sadm, TIMEOUT
+k4_n75_qa22_3.lp.td-python-spbaf-sadm,  5,  td-python-spbaf-sadm, TIMEOUT
+k4_n75_qa54_4.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 5.1896655003963685e-06, #   total CPU user time (s): 267.16
+k4_n100_qa178_1.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k4_n100_qa179_2.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k4_n100_qa314_3.lp.td-python-spbaf-sadm,  6,  td-python-spbaf-sadm, TIMEOUT
+k4_n100_qa339_4.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 4.587161994350482e-12, #   total CPU user time (s): 298.768
+k4_n150_qa365_1.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k4_n150_qa375_2.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 3.9068917060965423e-13, #   total CPU user time (s): 230.016
+k4_n150_qa536_3.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 1.6961039931161688e-15, #   total CPU user time (s): 261.094
+k4_n150_qa178_4.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k5_n5_qa23_1.lp.td-python-spbaf-sadm,   3, td-python-spbaf-sadm, RESULT 0.9, #   total CPU user time (s): 3.35406
+k5_n5_qa19_2.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 0.170772, #   total CPU user time (s): 2.60354
+k5_n5_qa1_3.lp.td-python-spbaf-sadm,   4, td-python-spbaf-sadm, RESULT 0.8, #   total CPU user time (s): 5.54838
+k5_n5_qa16_4.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 1.0, #   total CPU user time (s): 3.38513
+k5_n10_qa17_1.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 0.0005412241024344, #   total CPU user time (s): 8.03214
+k5_n10_qa29_2.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 0.1, #   total CPU user time (s): 224.923
+k5_n10_qa37_3.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 0.331279776, #   total CPU user time (s): 71.6576
+k5_n10_qa13_4.lp.td-python-spbaf-sadm,   5, td-python-spbaf-sadm, RESULT 0.1188, #   total CPU user time (s): 25.3132
+k5_n20_qa15_1.lp.td-python-spbaf-sadm,  6,  td-python-spbaf-sadm, TIMEOUT
+k5_n20_qa13_2.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 2.650038371733482e-06, #   total CPU user time (s): 74.5928
+k5_n20_qa55_3.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 8.218072261454608e-05, #   total CPU user time (s): 88.0421
+k5_n20_qa82_4.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 0.0015745553934050304, #   total CPU user time (s): 141.356
+k5_n50_qa194_2.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 6.91006464482093e-07, #   total CPU user time (s): 141.111
+k5_n50_qa180_3.lp.td-python-spbaf-sadm,   6, td-python-spbaf-sadm, RESULT 5.4994454745138915e-08, #   total CPU user time (s): 173.525
+k5_n50_qa43_4.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k5_n75_qa3_1.lp.td-python-spbaf-sadm,  6,  td-python-spbaf-sadm, TIMEOUT
+k5_n75_qa319_2.lp.td-python-spbaf-sadm,  6,  td-python-spbaf-sadm, TIMEOUT
+k5_n75_qa313_3.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k5_n75_qa144_4.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k5_n100_qa301_1.lp.td-python-spbaf-sadm,  6,  td-python-spbaf-sadm, TIMEOUT
+k5_n100_qa268_2.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k5_n100_qa492_3.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k5_n100_qa42_4.lp.td-python-spbaf-sadm,  6,  td-python-spbaf-sadm, TIMEOUT
+k5_n150_qa60_1.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k5_n150_qa586_2.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT
+k5_n150_qa499_3.lp.td-python-spbaf-sadm,  8,  td-python-spbaf-sadm, TIMEOUT
+k5_n150_qa613_4.lp.td-python-spbaf-sadm,  7,  td-python-spbaf-sadm, TIMEOUT

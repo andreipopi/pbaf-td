@@ -1,0 +1,3894 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 15948 MiB (7025 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_td_python_dpbaf_dcom.sh /home/andreipopi/Documents/GitLab/pbaf-treedec/InstanceGenerator/instance_set/k5_n100_qa268_2.lp 
+
+running on 1 cores: 0
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.5.0-35-generic
+solver pid=222171, runsolver pid=222170
+Current StackSize limit: 8192 KiB
+
+
+[startup+0.100446 s]*
+/proc/loadavg: 1.24 1.23 1.19 2/795 222173
+/proc/meminfo: memFree=7173528/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=88940 memory=36220 CPUtime=0.09 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 5145 0 0 0 8 1 0 0 20 0 1 0 26067309 91074560 9055 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 22235 9055 4512 688 0 5151 0
+Current children cumulated CPU time: 0.09 s
+Current children cumulated vsize: 91836 KiB
+Current children cumulated memory: 37756 KiB
+
+[startup+0.221865 s]*
+/proc/loadavg: 1.24 1.23 1.19 2/795 222173
+/proc/meminfo: memFree=7156392/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=123604 memory=61572 CPUtime=0.2 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 9699 0 0 0 18 2 0 0 20 0 1 0 26067309 126570496 15393 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 30901 15393 6912 688 0 8920 0
+Current children cumulated CPU time: 0.2 s
+Current children cumulated vsize: 126500 KiB
+Current children cumulated memory: 63108 KiB
+
+[startup+0.322569 s]*
+/proc/loadavg: 1.24 1.23 1.19 3/798 222178
+/proc/meminfo: memFree=7147068/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=127452 memory=65540 CPUtime=0.26 cores=0
+/proc/222173/stat : 222173 (python3) S 222171 222171 169255 34816 172379 4194304 10599 1807 0 0 21 2 3 0 20 0 1 0 26067309 130510848 16385 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 1 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 31863 16385 7040 688 0 9691 0
+[pid=222176] ppid=222173 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222176/stat : 222176 (sh) S 222173 222171 169255 34816 172379 4194304 63 0 0 0 0 0 0 0 20 0 1 0 26067340 2965504 384 18446744073709551615 108562067443712 108562067523989 140720422678496 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 108562067549936 108562067554848 108562087956480 140720422681628 140720422681743 140720422681743 140720422686704 0
+/proc/222176/statm: 724 384 384 20 0 92 0
+[pid=222178] ppid=222176 vsize=12328 memory=8832 CPUtime=0 cores=0
+/proc/222178/stat : 222178 (htd_main-1.2.0) R 222176 222171 169255 34816 172379 4194304 783 0 0 0 0 0 0 0 20 0 1 0 26067340 12623872 2208 18446744073709551615 102801284464640 102801284484933 140729321137520 0 0 0 0 0 16386 0 0 0 17 0 0 0 0 0 0 102801284495456 102801284497432 102801284771840 140729321143253 140729321143350 140729321143350 140729321148311 0
+/proc/222178/statm: 3082 2208 1568 5 0 567 0
+Current children cumulated CPU time: 0.26 s
+Current children cumulated vsize: 145572 KiB
+Current children cumulated memory: 77444 KiB
+
+[startup+0.700871 s]
+/proc/loadavg: 1.30 1.24 1.19 5/798 222178
+/proc/meminfo: memFree=7145556/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=127452 memory=65540 CPUtime=0.26 cores=0
+/proc/222173/stat : 222173 (python3) S 222171 222171 169255 34816 172379 4194304 10599 1807 0 0 21 2 3 0 20 0 1 0 26067309 130510848 16385 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 1 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 31863 16385 7040 688 0 9691 0
+[pid=222176] ppid=222173 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222176/stat : 222176 (sh) S 222173 222171 169255 34816 172379 4194304 63 0 0 0 0 0 0 0 20 0 1 0 26067340 2965504 384 18446744073709551615 108562067443712 108562067523989 140720422678496 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 108562067549936 108562067554848 108562087956480 140720422681628 140720422681743 140720422681743 140720422686704 0
+/proc/222176/statm: 724 384 384 20 0 92 0
+[pid=222178] ppid=222176 vsize=14840 memory=11392 CPUtime=0.33 cores=0
+/proc/222178/stat : 222178 (htd_main-1.2.0) R 222176 222171 169255 34816 172379 4194304 1395 0 0 0 32 1 0 0 20 0 1 0 26067340 15196160 2848 18446744073709551615 102801284464640 102801284484933 140729321137520 0 0 0 0 0 16386 0 0 0 17 0 0 0 0 0 0 102801284495456 102801284497432 102801284771840 140729321143253 140729321143350 140729321143350 140729321148311 0
+/proc/222178/statm: 3710 2848 1600 5 0 1195 0
+Current children cumulated CPU time: 0.59 s
+Current children cumulated vsize: 148084 KiB
+Current children cumulated memory: 80004 KiB
+
+[startup+1.5005 s]
+/proc/loadavg: 1.30 1.24 1.19 3/798 222180
+/proc/meminfo: memFree=7145304/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=132056 memory=69252 CPUtime=1.38 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 11523 3285 0 0 27 2 107 2 20 0 1 0 26067309 135225344 17313 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 33014 17313 7040 688 0 10842 0
+Current children cumulated CPU time: 1.38 s
+Current children cumulated vsize: 134952 KiB
+Current children cumulated memory: 70788 KiB
+
+[startup+3.12243 s]
+/proc/loadavg: 1.30 1.24 1.19 2/796 222215
+/proc/meminfo: memFree=7119700/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=151608 memory=92100 CPUtime=2.98 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 17292 3285 0 0 183 6 107 2 20 0 1 0 26067309 155246592 23025 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 37902 23025 7616 688 0 15730 0
+Current children cumulated CPU time: 2.98 s
+Current children cumulated vsize: 154504 KiB
+Current children cumulated memory: 93636 KiB
+{'a0': 1, 'a1': 2, 'a10': 3, 'a100': 4, 'a101': 5}
+Largest bag size:  8
+constructed TD
+
+NODE: 1458 leaf
+
+NODE: 1660  intro ['a119']
+introduced ['a119']
+
+NODE: 110  intro ['a119', 'a261']
+introduced ['a261']
+
+NODE: 935  rem -  ['a261']
+removed element a119
+tableminusrem
+
+NODE: 1303  intro ['a151', 'a261']
+introduced ['a151']
+
+NODE: 494  intro ['a151', 'a238', 'a261']
+introduced ['a238']
+
+NODE: 1459 leaf
+
+NODE: 1661  intro ['a216']
+introduced ['a216']
+
+NODE: 1662  intro ['a216', 'a238']
+introduced ['a238']
+
+NODE: 1663  intro ['a216', 'a238', 'a413']
+introduced ['a413']
+
+NODE: 1664  intro ['a216', 'a238', 'a413', 'a462']
+introduced ['a462']
+
+NODE: 111  intro ['a216', 'a238', 'a413', 'a462', 'a63']
+introduced ['a63']
+
+NODE: 734  rem -  ['a238', 'a413', 'a462', 'a63']
+removed element a216
+tableminusrem
+
+NODE: 98  intro ['a151', 'a238', 'a413', 'a462', 'a63']
+introduced ['a151']
+
+NODE: 928  rem -  ['a151', 'a238', 'a413', 'a63']
+removed element a462
+tableminusrem
+
+NODE: 487  intro ['a151', 'a238', 'a413', 'a497', 'a63']
+introduced ['a497']
+
+NODE: 1452 leaf
+
+NODE: 1642  intro ['a151']
+introduced ['a151']
+
+NODE: 1643  intro ['a151', 'a238']
+introduced ['a238']
+
+NODE: 1644  intro ['a151', 'a238', 'a424']
+introduced ['a424']
+
+NODE: 97  intro ['a151', 'a238', 'a424', 'a497']
+introduced ['a497']
+
+NODE: 927  rem -  ['a151', 'a238', 'a497']
+removed element a424
+tableminusrem
+
+NODE: 1295  intro ['a151', 'a238', 'a413', 'a497']
+introduced ['a413']
+
+NODE: 486  intro ['a151', 'a238', 'a413', 'a497', 'a63']
+introduced ['a63']
+
+NODE: 685  join
+----------------
+
+NODE: 1451 leaf
+
+NODE: 1641  intro ['a304']
+introduced ['a304']
+
+NODE: 86  intro ['a304', 'a63']
+introduced ['a63']
+
+NODE: 919  rem -  ['a63']
+removed element a304
+tableminusrem
+
+NODE: 1287  intro ['a151', 'a63']
+introduced ['a151']
+
+NODE: 1288  intro ['a151', 'a21', 'a63']
+introduced ['a21']
+
+NODE: 1289  intro ['a151', 'a21', 'a413', 'a63']
+introduced ['a413']
+
+NODE: 478  intro ['a151', 'a21', 'a413', 'a497', 'a63']
+introduced ['a497']
+
+NODE: 1504 leaf
+
+NODE: 1756  intro ['a14']
+introduced ['a14']
+
+NODE: 1757  intro ['a14', 'a255']
+introduced ['a255']
+
+NODE: 235  intro ['a14', 'a255', 'a426']
+introduced ['a426']
+
+NODE: 774  rem -  ['a255', 'a426']
+removed element a14
+tableminusrem
+
+NODE: 226  intro ['a226', 'a255', 'a426']
+introduced ['a226']
+
+NODE: 1015  rem -  ['a226', 'a255']
+removed element a426
+tableminusrem
+
+NODE: 574  intro ['a226', 'a255', 'a397']
+introduced ['a397']
+
+NODE: 1516 leaf
+
+NODE: 1774  intro ['a290']
+introduced ['a290']
+
+NODE: 282  intro ['a290', 'a74']
+introduced ['a74']
+
+NODE: 800  rem -  ['a290']
+removed element a74
+tableminusrem
+
+NODE: 274  intro ['a290', 'a468']
+introduced ['a468']
+
+NODE: 792  rem -  ['a468']
+removed element a290
+tableminusrem
+
+NODE: 264  intro ['a225', 'a468']
+introduced ['a225']
+
+NODE: 788  rem -  ['a225']
+removed element a468
+tableminusrem
+
+NODE: 256  intro ['a225', 'a463']
+introduced ['a463']
+
+NODE: 1030  rem -  ['a463']
+removed element a225
+tableminusrem
+
+NODE: 589  intro ['a463', 'a84']
+introduced ['a84']
+
+NODE: 1515 leaf
+
+NODE: 1773  intro ['a139']
+introduced ['a139']
+
+NODE: 281  intro ['a139', 'a160']
+introduced ['a160']
+
+NODE: 799  rem -  ['a160']
+removed element a139
+tableminusrem
+
+NODE: 273  intro ['a160', 'a241']
+introduced ['a241']
+
+NODE: 791  rem -  ['a241']
+removed element a160
+tableminusrem
+
+NODE: 263  intro ['a241', 'a369']
+introduced ['a369']
+
+NODE: 1034  rem -  ['a369']
+removed element a241
+tableminusrem
+
+NODE: 593  intro ['a369', 'a463']
+introduced ['a463']
+
+NODE: 1512 leaf
+
+NODE: 1768  intro ['a111']
+introduced ['a111']
+
+NODE: 1769  intro ['a111', 'a234']
+introduced ['a234']
+
+NODE: 272  intro ['a111', 'a234', 'a475']
+introduced ['a475']
+
+NODE: 1040  rem -  ['a111', 'a234']
+removed element a475
+tableminusrem
+
+NODE: 599  intro ['a111', 'a147', 'a234']
+introduced ['a147']
+
+NODE: 1522 leaf
+
+NODE: 1785  intro ['a140']
+introduced ['a140']
+
+NODE: 1786  intro ['a140', 'a245']
+introduced ['a245']
+
+NODE: 297  intro ['a140', 'a245', 'a96']
+introduced ['a96']
+
+NODE: 809  rem -  ['a245', 'a96']
+removed element a140
+tableminusrem
+
+NODE: 293  intro ['a245', 'a436', 'a96']
+introduced ['a436']
+
+NODE: 805  rem -  ['a436', 'a96']
+removed element a245
+tableminusrem
+
+NODE: 288  intro ['a162', 'a436', 'a96']
+introduced ['a162']
+
+NODE: 1044  rem -  ['a162', 'a436']
+removed element a96
+tableminusrem
+
+NODE: 603  intro ['a147', 'a162', 'a436']
+introduced ['a147']
+
+NODE: 1523 leaf
+
+NODE: 1787  intro ['a41']
+introduced ['a41']
+
+NODE: 1788  intro ['a41', 'a465']
+introduced ['a465']
+
+NODE: 300  intro ['a41', 'a465', 'a6']
+introduced ['a6']
+
+NODE: 1049  rem -  ['a41', 'a6']
+removed element a465
+tableminusrem
+
+NODE: 608  intro ['a185', 'a41', 'a6']
+introduced ['a185']
+
+NODE: 1526 leaf
+
+NODE: 1794  intro ['a168']
+introduced ['a168']
+
+NODE: 308  intro ['a168', 'a205']
+introduced ['a205']
+
+NODE: 811  rem -  ['a205']
+removed element a168
+tableminusrem
+
+NODE: 303  intro ['a205', 'a409']
+introduced ['a409']
+
+NODE: 810  rem -  ['a409']
+removed element a205
+tableminusrem
+
+NODE: 299  intro ['a409', 'a6']
+introduced ['a6']
+
+NODE: 1048  rem -  ['a6']
+removed element a409
+tableminusrem
+
+NODE: 1379  intro ['a185', 'a6']
+introduced ['a185']
+
+NODE: 607  intro ['a185', 'a41', 'a6']
+introduced ['a41']
+
+NODE: 692  join
+----------------
+
+NODE: 1525 leaf
+
+NODE: 1792  intro ['a177']
+introduced ['a177']
+
+NODE: 1793  intro ['a177', 'a399']
+introduced ['a399']
+
+NODE: 307  intro ['a177', 'a399', 'a488']
+introduced ['a488']
+
+NODE: 1055  rem -  ['a177', 'a399']
+removed element a488
+tableminusrem
+
+NODE: 1382  intro ['a177', 'a399', 'a41']
+introduced ['a41']
+
+NODE: 614  intro ['a177', 'a399', 'a41', 'a53']
+introduced ['a53']
+
+NODE: 1524 leaf
+
+NODE: 1789  intro ['a276']
+introduced ['a276']
+
+NODE: 1790  intro ['a276', 'a297']
+introduced ['a297']
+
+NODE: 1791  intro ['a276', 'a297', 'a399']
+introduced ['a399']
+
+NODE: 306  intro ['a276', 'a297', 'a399', 'a41']
+introduced ['a41']
+
+NODE: 1190  rem -  ['a297', 'a399', 'a41']
+removed element a276
+tableminusrem
+
+NODE: 1054  rem -  ['a399', 'a41']
+removed element a297
+tableminusrem
+
+NODE: 1381  intro ['a177', 'a399', 'a41']
+introduced ['a177']
+
+NODE: 613  intro ['a177', 'a399', 'a41', 'a53']
+introduced ['a53']
+
+NODE: 302  join
+----------------
+
+NODE: 1051  rem -  ['a177', 'a41', 'a53']
+removed element a399
+tableminusrem
+
+NODE: 610  intro ['a177', 'a185', 'a41', 'a53']
+introduced ['a185']
+
+NODE: 1531 leaf
+
+NODE: 1803  intro ['a208']
+introduced ['a208']
+
+NODE: 1804  intro ['a208', 'a343']
+introduced ['a343']
+
+NODE: 323  intro ['a208', 'a343', 'a4']
+introduced ['a4']
+
+NODE: 1067  rem -  ['a208', 'a4']
+removed element a343
+tableminusrem
+
+NODE: 1390  intro ['a208', 'a29', 'a4']
+introduced ['a29']
+
+NODE: 1391  intro ['a208', 'a29', 'a376', 'a4']
+introduced ['a376']
+
+NODE: 626  intro ['a208', 'a29', 'a376', 'a4', 'a474']
+introduced ['a474']
+
+NODE: 1534 leaf
+
+NODE: 1809  intro ['a16']
+introduced ['a16']
+
+NODE: 1810  intro ['a16', 'a376']
+introduced ['a376']
+
+NODE: 1811  intro ['a16', 'a376', 'a470']
+introduced ['a470']
+
+NODE: 330  intro ['a16', 'a376', 'a470', 'a474']
+introduced ['a474']
+
+NODE: 1072  rem -  ['a16', 'a376', 'a474']
+removed element a470
+tableminusrem
+
+NODE: 631  intro ['a16', 'a29', 'a376', 'a474']
+introduced ['a29']
+
+NODE: 1533 leaf
+
+NODE: 1807  intro ['a16']
+introduced ['a16']
+
+NODE: 1808  intro ['a16', 'a376']
+introduced ['a376']
+
+NODE: 329  intro ['a16', 'a376', 'a396']
+introduced ['a396']
+
+NODE: 1071  rem -  ['a16', 'a376']
+removed element a396
+tableminusrem
+
+NODE: 1394  intro ['a16', 'a29', 'a376']
+introduced ['a29']
+
+NODE: 630  intro ['a16', 'a29', 'a376', 'a474']
+introduced ['a474']
+
+NODE: 695  join
+----------------
+
+NODE: 1555 leaf
+
+NODE: 1847  intro ['a159']
+introduced ['a159']
+
+NODE: 398  intro ['a159', 'a356']
+introduced ['a356']
+
+NODE: 847  rem -  ['a159']
+removed element a356
+tableminusrem
+
+NODE: 393  intro ['a159', 'a330']
+introduced ['a330']
+
+NODE: 1105  rem -  ['a330']
+removed element a159
+tableminusrem
+
+NODE: 1418  intro ['a116', 'a330']
+introduced ['a116']
+
+NODE: 664  intro ['a116', 'a184', 'a330']
+introduced ['a184']
+
+NODE: 1553 leaf
+
+NODE: 1845  intro ['a330']
+introduced ['a330']
+
+NODE: 392  intro ['a330', 'a469']
+introduced 
+[startup+6.3007 s]
+/proc/loadavg: 1.28 1.24 1.19 2/796 222215
+/proc/meminfo: memFree=7063756/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=219584 memory=159376 CPUtime=6.1 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 34347 3285 0 0 488 13 107 2 20 0 1 0 26067309 224854016 39844 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 54896 39844 7616 688 0 32724 0
+Current children cumulated CPU time: 6.1 s
+Current children cumulated vsize: 222480 KiB
+Current children cumulated memory: 160912 KiB
+
+[startup+12.7012 s]
+/proc/loadavg: 1.33 1.25 1.20 2/796 222218
+/proc/meminfo: memFree=6962452/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=311452 memory=249924 CPUtime=12.39 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 66658 3285 0 0 1097 33 107 2 20 0 1 0 26067309 318926848 62481 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 77863 62481 7616 688 0 55691 0
+Current children cumulated CPU time: 12.39 s
+Current children cumulated vsize: 314348 KiB
+Current children cumulated memory: 251460 KiB
+
+[startup+25.5005 s]
+/proc/loadavg: 1.43 1.27 1.21 2/795 222221
+/proc/meminfo: memFree=6918856/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=355484 memory=293444 CPUtime=24.98 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 78546 3285 0 0 2318 71 107 2 20 0 1 0 26067309 364015616 73361 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 88871 73361 7616 688 0 66699 0
+Current children cumulated CPU time: 24.98 s
+Current children cumulated vsize: 358380 KiB
+Current children cumulated memory: 294980 KiB
+['a469']
+
+NODE: 1104  rem -  ['a330']
+removed element a469
+tableminusrem
+
+NODE: 1417  intro ['a116', 'a330']
+introduced ['a116']
+
+NODE: 663  intro ['a116', 'a184', 'a330']
+introduced ['a184']
+
+NODE: 388  join
+----------------
+
+NODE: 845  rem -  ['a116', 'a184']
+removed element a330
+tableminusrem
+
+NODE: 1237  intro ['a101', 'a116', 'a184']
+introduced ['a101']
+
+NODE: 1238  intro ['a101', 'a116', 'a121', 'a184']
+introduced ['a121']
+
+NODE: 382  intro ['a101', 'a116', 'a121', 'a184', 'a251']
+introduced ['a251']
+
+NODE: 1146  rem -  ['a101', 'a116', 'a184', 'a251']
+removed element a121
+tableminusrem
+
+NODE: 841  rem -  ['a101', 'a116', 'a251']
+removed element a184
+tableminusrem
+
+NODE: 1235  intro ['a101', 'a116', 'a202', 'a251']
+introduced ['a202']
+
+NODE: 376  intro ['a101', 'a116', 'a202', 'a251', 'a62']
+introduced ['a62']
+
+NODE: 1193  rem -  ['a116', 'a202', 'a251', 'a62']
+removed element a101
+tableminusrem
+
+NODE: 1194  rem -  ['a116', 'a202', 'a62']
+removed element a251
+tableminusrem
+
+NODE: 1097  rem -  ['a116', 'a202']
+removed element a62
+tableminusrem
+
+NODE: 656  intro ['a116', 'a16', 'a202']
+introduced ['a16']
+
+NODE: 1551 leaf
+
+NODE: 1842  intro ['a189']
+introduced ['a189']
+
+NODE: 387  intro ['a189', 'a213']
+introduced ['a213']
+
+NODE: 844  rem -  ['a189']
+removed element a213
+tableminusrem
+
+NODE: 381  intro ['a189', 'a309']
+introduced ['a309']
+
+NODE: 840  rem -  ['a309']
+removed element a189
+tableminusrem
+
+NODE: 375  intro ['a202', 'a309']
+introduced ['a202']
+
+NODE: 1096  rem -  ['a202']
+removed element a309
+tableminusrem
+
+NODE: 1415  intro ['a116', 'a202']
+introduced ['a116']
+
+NODE: 655  intro ['a116', 'a16', 'a202']
+introduced ['a16']
+
+NODE: 370  join
+----------------
+
+NODE: 833  rem -  ['a116', 'a16']
+removed element a202
+tableminusrem
+
+NODE: 364  intro ['a116', 'a16', 'a447']
+introduced ['a447']
+
+NODE: 1092  rem -  ['a16', 'a447']
+removed element a116
+tableminusrem
+
+NODE: 651  intro ['a128', 'a16', 'a447']
+introduced ['a128']
+
+NODE: 1545 leaf
+
+NODE: 1832  intro ['a128']
+introduced ['a128']
+
+NODE: 1833  intro ['a128', 'a286']
+introduced ['a286']
+
+NODE: 363  intro ['a128', 'a286', 'a447']
+introduced ['a447']
+
+NODE: 1091  rem -  ['a128', 'a447']
+removed element a286
+tableminusrem
+
+NODE: 650  intro ['a128', 'a16', 'a447']
+introduced ['a16']
+
+NODE: 358  join
+----------------
+
+NODE: 826  rem -  ['a128', 'a16']
+removed element a447
+tableminusrem
+
+NODE: 351  intro ['a128', 'a16', 'a237']
+introduced ['a237']
+
+NODE: 1086  rem -  ['a16', 'a237']
+removed element a128
+tableminusrem
+
+NODE: 645  intro ['a16', 'a237', 'a67']
+introduced ['a67']
+
+NODE: 1544 leaf
+
+NODE: 1831  intro ['a275']
+introduced ['a275']
+
+NODE: 362  intro ['a275', 'a7']
+introduced ['a7']
+
+NODE: 830  rem -  ['a275']
+removed element a7
+tableminusrem
+
+NODE: 357  intro ['a275', 'a292']
+introduced ['a292']
+
+NODE: 1090  rem -  ['a292']
+removed element a275
+tableminusrem
+
+NODE: 1406  intro ['a237', 'a292']
+introduced ['a237']
+
+NODE: 649  intro ['a237', 'a292', 'a67']
+introduced ['a67']
+
+NODE: 1556 leaf
+
+NODE: 402  intro ['a23']
+introduced ['a23']
+
+NODE: 849  rem -  []
+removed element a23
+tableminusrem
+
+NODE: 397  intro ['a218']
+introduced ['a218']
+
+NODE: 1109  rem -  []
+removed element a218
+tableminusrem
+
+NODE: 1419  intro ['a277']
+introduced ['a277']
+
+NODE: 668  intro ['a277', 'a348']
+introduced ['a348']
+
+NODE: 1554 leaf
+
+NODE: 1846  intro ['a228']
+introduced ['a228']
+
+NODE: 396  intro ['a228', 'a348']
+introduced ['a348']
+
+NODE: 1108  rem -  ['a348']
+removed element a228
+tableminusrem
+
+NODE: 667  intro ['a277', 'a348']
+introduced ['a277']
+
+NODE: 391  join
+----------------
+
+NODE: 1147  rem -  ['a348']
+removed element a277
+tableminusrem
+
+NODE: 846  rem -  []
+removed element a348
+tableminusrem
+
+NODE: 386  intro ['a28']
+introduced ['a28']
+
+NODE: 843  rem -  []
+removed element a28
+tableminusrem
+
+NODE: 380  intro ['a440']
+introduced ['a440']
+
+NODE: 839  rem -  []
+removed element a440
+tableminusrem
+
+NODE: 1234  intro ['a212']
+introduced ['a212']
+
+NODE: 374  intro ['a212', 'a334']
+introduced ['a334']
+
+NODE: 1145  rem -  ['a334']
+removed element a212
+tableminusrem
+
+NODE: 837  rem -  []
+removed element a334
+tableminusrem
+
+NODE: 369  intro ['a38']
+introduced ['a38']
+
+NODE: 832  rem -  []
+removed element a38
+tableminusrem
+
+NODE: 361  intro ['a354']
+introduced ['a354']
+
+NODE: 829  rem -  []
+removed element a354
+tableminusrem
+
+NODE: 356  intro ['a215']
+introduced ['a215']
+
+NODE: 1089  rem -  []
+removed element a215
+tableminusrem
+
+NODE: 1404  intro ['a237']
+introduced ['a237']
+
+NODE: 1405  intro ['a237', 'a292']
+introduced ['a292']
+
+NODE: 648  intro ['a237', 'a292', 'a67']
+introduced ['a67']
+
+NODE: 350  join
+----------------
+
+NODE: 1085  rem -  ['a237', 'a67']
+removed element a292
+tableminusrem
+
+NODE: 644  intro ['a16', 'a237', 'a67']
+introduced ['a16']
+
+NODE: 697  join
+----------------
+
+NODE: 1541 leaf
+
+NODE: 1825  intro ['a237']
+introduced ['a237']
+
+NODE: 1826  intro ['a237', 'a448']
+introduced ['a448']
+
+NODE: 349  intro ['a237', 'a448', 'a67']
+introduced ['a67']
+
+NODE: 1084  rem -  ['a237', 'a67']
+removed element a448
+tableminusrem
+
+NODE: 643  intro ['a16', 'a237', 'a67']
+introduced ['a16']
+
+NODE: 342  join
+----------------
+
+NODE: 1081  rem -  ['a16', 'a67']
+removed element a237
+tableminusrem
+
+NODE: 1400  intro ['a16', 'a29', 'a67']
+introduced ['a29']
+
+NODE: 640  intro ['a16', 'a29', 'a59', 'a67']
+introduced ['a59']
+
+NODE: 1540 leaf
+
+NODE: 1823  intro ['a11']
+introduced ['a11']
+
+NODE: 1824  intro ['a11', 'a158']
+introduced ['a158']
+
+NODE: 348  intro ['a11', 'a158', 'a16']
+introduced ['a16']
+
+NODE: 823  rem -  ['a11', 'a16']
+removed element a158
+tableminusrem
+
+NODE: 341  intro ['a11', 'a16', 'a59']
+introduced ['a59']
+
+NODE: 1080  rem -  ['a16', 'a59']
+removed element a11
+tableminusrem
+
+NODE: 1399  intro ['a16', 'a29', 'a59']
+introduced ['a29']
+
+NODE: 639  intro ['a16', 'a29', 'a59', 'a67']
+introduced ['a67']
+
+NODE: 696  join
+----------------
+
+NODE: 1550 leaf
+
+NODE: 1841  intro ['a183']
+introduced ['a183']
+
+NODE: 385  intro ['a183', 'a411']
+introduced ['a411']
+
+NODE: 842  rem -  ['a411']
+removed element a183
+tableminusrem
+
+NODE: 1236  intro ['a110', 'a411']
+introduced ['a110']
+
+NODE: 379  intro ['a110', 'a198', 'a411']
+introduced ['a198']
+
+NODE: 838  rem -  ['a110', 'a198']
+removed element a411
+tableminusrem
+
+NODE: 373  intro ['a110', 'a194', 'a198']
+introduced ['a194']
+
+NODE: 836  rem -  ['a110', 'a194']
+removed element a198
+tableminusrem
+
+NODE: 368  intro ['a110', 'a194', 'a357']
+introduced ['a357']
+
+NODE: 1095  rem -  ['a194', 'a357']
+removed element a110
+tableminusrem
+
+NODE: 1413  intro ['a194', 'a357', 'a406']
+introduced ['a406']
+
+NODE: 1414  intro ['a194', 'a357', 'a406', 'a478']
+introduced ['a478']
+
+NODE: 654  intro ['a194', 'a357', 'a406', 'a478', 'a78']
+introduced ['a78']
+
+NODE: 1546 leaf
+
+NODE: 1834  intro ['a118']
+introduced ['a118']
+
+NODE: 367  intro ['a118', 'a357']
+introduced ['a357']
+
+NODE: 1094  rem -  ['a357']
+removed element a118
+tableminusrem
+
+NODE: 1410  intro ['a194', 'a357']
+introduced ['a194']
+
+NODE: 1411  intro ['a194', 'a357', 'a406']
+introduced ['a406']
+
+NODE: 1412  intro ['a194', 'a357', 'a406', 'a478']
+introduced ['a478']
+
+NODE: 653  intro ['a194', 'a357', 'a406', 'a478', 'a78']
+introduced ['a78']
+
+NODE: 698  join
+----------------
+
+NODE: 1547 leaf
+
+NODE: 1835  intro ['a346']
+introduced ['a346']
+
+NODE: 372  intro ['a346', 'a362']
+introduced ['a362']
+
+NODE: 835  rem -  ['a362']
+removed element a346
+tableminusrem
+
+NODE: 366  intro ['a357', 'a362']
+introduced ['a357']
+
+NODE: 1093  rem -  ['a357']
+removed element a362
+tableminusrem
+
+NODE: 1407  intro ['a194', 'a357']
+introduced ['a194']
+
+NODE: 1408  intro ['a194', 'a357', 'a406']
+introduced ['a406']
+
+NODE: 1409  intro ['a194', 'a357', 'a406', 'a478']
+introduced ['a478']
+
+NODE: 652  intro ['a194', 'a357', 'a406', 'a478', 'a78']
+introduced ['a78']
+
+NODE: 360  join
+----------------
+
+NODE: 1144  rem -  ['a357', 'a406', 'a478', 'a78']
+removed element a194
+tableminusrem
+
+NODE: 828  rem -  ['a406', 'a478', 'a78']
+removed element a357
+tableminusrem
+
+NODE: 355  intro ['a406', 'a412', 'a478', 'a78']
+introduced ['a412']
+
+NODE: 1088  rem -  ['a412', 'a478', 'a78']
+removed element a406
+tableminusrem
+
+NODE: 1403  intro 
+[startup+51.1204 s]
+/proc/loadavg: 1.26 1.25 1.20 2/795 222227
+/proc/meminfo: memFree=6846080/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=435464 memory=373148 CPUtime=50.15 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 103427 3285 0 0 4759 147 107 2 20 0 1 0 26067309 445915136 93287 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 108866 93287 7616 688 0 86694 0
+Current children cumulated CPU time: 50.15 s
+Current children cumulated vsize: 438360 KiB
+Current children cumulated memory: 374684 KiB
+['a412', 'a478', 'a59', 'a78']
+introduced ['a59']
+
+NODE: 647  intro ['a412', 'a478', 'a59', 'a67', 'a78']
+introduced ['a67']
+
+NODE: 1543 leaf
+
+NODE: 1829  intro ['a412']
+introduced ['a412']
+
+NODE: 1830  intro ['a412', 'a56']
+introduced ['a56']
+
+NODE: 354  intro ['a412', 'a56', 'a78']
+introduced ['a78']
+
+NODE: 1087  rem -  ['a412', 'a78']
+removed element a56
+tableminusrem
+
+NODE: 1401  intro ['a412', 'a478', 'a78']
+introduced ['a478']
+
+NODE: 1402  intro ['a412', 'a478', 'a59', 'a78']
+introduced ['a59']
+
+NODE: 646  intro ['a412', 'a478', 'a59', 'a67', 'a78']
+introduced ['a67']
+
+NODE: 347  join
+----------------
+
+NODE: 1143  rem -  ['a478', 'a59', 'a67', 'a78']
+removed element a412
+tableminusrem
+
+NODE: 822  rem -  ['a478', 'a59', 'a67']
+removed element a78
+tableminusrem
+
+NODE: 340  intro ['a29', 'a478', 'a59', 'a67']
+introduced ['a29']
+
+NODE: 1079  rem -  ['a29', 'a59', 'a67']
+removed element a478
+tableminusrem
+
+NODE: 638  intro ['a16', 'a29', 'a59', 'a67']
+introduced ['a16']
+
+NODE: 335  join
+----------------
+
+NODE: 819  rem -  ['a16', 'a29', 'a59']
+removed element a67
+tableminusrem
+
+NODE: 328  intro ['a16', 'a29', 'a474', 'a59']
+introduced ['a474']
+
+NODE: 1070  rem -  ['a16', 'a29', 'a474']
+removed element a59
+tableminusrem
+
+NODE: 629  intro ['a16', 'a29', 'a376', 'a474']
+introduced ['a376']
+
+NODE: 322  join
+----------------
+
+NODE: 1066  rem -  ['a29', 'a376', 'a474']
+removed element a16
+tableminusrem
+
+NODE: 1389  intro ['a208', 'a29', 'a376', 'a474']
+introduced ['a208']
+
+NODE: 625  intro ['a208', 'a29', 'a376', 'a4', 'a474']
+introduced ['a4']
+
+NODE: 316  join
+----------------
+
+NODE: 1138  rem -  ['a29', 'a376', 'a4', 'a474']
+removed element a208
+tableminusrem
+
+NODE: 1139  rem -  ['a376', 'a4', 'a474']
+removed element a29
+tableminusrem
+
+NODE: 1140  rem -  ['a4', 'a474']
+removed element a376
+tableminusrem
+
+NODE: 1141  rem -  ['a474']
+removed element a4
+tableminusrem
+
+NODE: 814  rem -  []
+removed element a474
+tableminusrem
+
+NODE: 1231  intro ['a17']
+introduced ['a17']
+
+NODE: 1232  intro ['a17', 'a191']
+introduced ['a191']
+
+NODE: 312  intro ['a17', 'a191', 'a43']
+introduced ['a43']
+
+NODE: 812  rem -  ['a17', 'a43']
+removed element a191
+tableminusrem
+
+NODE: 1229  intro ['a132', 'a17', 'a43']
+introduced ['a132']
+
+NODE: 1230  intro ['a132', 'a17', 'a177', 'a43']
+introduced ['a177']
+
+NODE: 305  intro ['a132', 'a17', 'a177', 'a43', 'a435']
+introduced ['a435']
+
+NODE: 1189  rem -  ['a132', 'a177', 'a43', 'a435']
+removed element a17
+tableminusrem
+
+NODE: 1053  rem -  ['a132', 'a177', 'a435']
+removed element a43
+tableminusrem
+
+NODE: 612  intro ['a132', 'a177', 'a185', 'a435']
+introduced ['a185']
+
+NODE: 1527 leaf
+
+NODE: 1795  intro ['a132']
+introduced ['a132']
+
+NODE: 1796  intro ['a132', 'a422']
+introduced ['a422']
+
+NODE: 1797  intro ['a132', 'a422', 'a435']
+introduced ['a435']
+
+NODE: 311  intro ['a132', 'a422', 'a435', 'a9']
+introduced ['a9']
+
+NODE: 1058  rem -  ['a132', 'a435', 'a9']
+removed element a422
+tableminusrem
+
+NODE: 617  intro ['a132', 'a185', 'a435', 'a9']
+introduced ['a185']
+
+NODE: 1548 leaf
+
+NODE: 1836  intro ['a305']
+introduced ['a305']
+
+NODE: 1837  intro ['a305', 'a327']
+introduced ['a327']
+
+NODE: 378  intro ['a305', 'a327', 'a73']
+introduced ['a73']
+
+NODE: 1099  rem -  ['a305', 'a73']
+removed element a327
+tableminusrem
+
+NODE: 658  intro ['a155', 'a305', 'a73']
+introduced ['a155']
+
+NODE: 1549 leaf
+
+NODE: 1838  intro ['a136']
+introduced ['a136']
+
+NODE: 1839  intro ['a136', 'a155']
+introduced ['a155']
+
+NODE: 1840  intro ['a136', 'a155', 'a414']
+introduced ['a414']
+
+NODE: 384  intro ['a136', 'a155', 'a414', 'a480']
+introduced ['a480']
+
+NODE: 1195  rem -  ['a136', 'a155', 'a480']
+removed element a414
+tableminusrem
+
+NODE: 1101  rem -  ['a136', 'a155']
+removed element a480
+tableminusrem
+
+NODE: 660  intro ['a136', 'a155', 'a305']
+introduced ['a305']
+
+NODE: 1562 leaf
+
+NODE: 1856  intro ['a142']
+introduced ['a142']
+
+NODE: 1857  intro ['a142', 'a355']
+introduced ['a355']
+
+NODE: 1858  intro ['a142', 'a355', 'a410']
+introduced ['a410']
+
+NODE: 416  intro ['a142', 'a355', 'a410', 'a473']
+introduced ['a473']
+
+NODE: 857  rem -  ['a142', 'a355', 'a473']
+removed element a410
+tableminusrem
+
+NODE: 412  intro ['a13', 'a142', 'a355', 'a473']
+introduced ['a13']
+
+NODE: 1148  rem -  ['a13', 'a355', 'a473']
+removed element a142
+tableminusrem
+
+NODE: 853  rem -  ['a13', 'a355']
+removed element a473
+tableminusrem
+
+NODE: 408  intro ['a13', 'a355', 'a481']
+introduced ['a481']
+
+NODE: 851  rem -  ['a355', 'a481']
+removed element a13
+tableminusrem
+
+NODE: 401  intro ['a105', 'a355', 'a481']
+introduced ['a105']
+
+NODE: 1111  rem -  ['a105', 'a355']
+removed element a481
+tableminusrem
+
+NODE: 670  intro ['a105', 'a233', 'a355']
+introduced ['a233']
+
+NODE: 1561 leaf
+
+NODE: 1854  intro ['a149']
+introduced ['a149']
+
+NODE: 1855  intro ['a149', 'a243']
+introduced ['a243']
+
+NODE: 415  intro ['a149', 'a243', 'a492']
+introduced ['a492']
+
+NODE: 856  rem -  ['a243', 'a492']
+removed element a149
+tableminusrem
+
+NODE: 411  intro ['a243', 'a458', 'a492']
+introduced ['a458']
+
+NODE: 852  rem -  ['a243', 'a458']
+removed element a492
+tableminusrem
+
+NODE: 407  intro ['a243', 'a388', 'a458']
+introduced ['a388']
+
+NODE: 1115  rem -  ['a243', 'a388']
+removed element a458
+tableminusrem
+
+NODE: 674  intro ['a233', 'a243', 'a388']
+introduced ['a233']
+
+NODE: 1559 leaf
+
+NODE: 1851  intro ['a178']
+introduced ['a178']
+
+NODE: 1852  intro ['a178', 'a233']
+introduced ['a233']
+
+NODE: 406  intro ['a178', 'a233', 'a243']
+introduced ['a243']
+
+NODE: 1114  rem -  ['a233', 'a243']
+removed element a178
+tableminusrem
+
+NODE: 673  intro ['a233', 'a243', 'a388']
+introduced ['a388']
+
+NODE: 700  join
+----------------
+
+NODE: 1558 leaf
+
+NODE: 1849  intro ['a233']
+introduced ['a233']
+
+NODE: 1850  intro ['a233', 'a269']
+introduced ['a269']
+
+NODE: 405  intro ['a233', 'a269', 'a388']
+introduced ['a388']
+
+NODE: 1113  rem -  ['a233', 'a388']
+removed element a269
+tableminusrem
+
+NODE: 672  intro ['a233', 'a243', 'a388']
+introduced ['a243']
+
+NODE: 699  join
+----------------
+
+NODE: 1560 leaf
+
+NODE: 1853  intro ['a124']
+introduced ['a124']
+
+NODE: 414  intro ['a124', 'a386']
+introduced ['a386']
+
+NODE: 855  rem -  ['a386']
+removed element a124
+tableminusrem
+
+NODE: 410  intro ['a328', 'a386']
+introduced ['a328']
+
+NODE: 1117  rem -  ['a328']
+removed element a386
+tableminusrem
+
+NODE: 676  intro ['a328', 'a388']
+introduced ['a388']
+
+NODE: 1563 leaf
+
+NODE: 1859  intro ['a289']
+introduced ['a289']
+
+NODE: 418  intro ['a289', 'a391']
+introduced ['a391']
+
+NODE: 859  rem -  ['a391']
+removed element a289
+tableminusrem
+
+NODE: 417  intro ['a250', 'a391']
+introduced ['a250']
+
+NODE: 858  rem -  ['a250']
+removed element a391
+tableminusrem
+
+NODE: 413  intro ['a250', 'a421']
+introduced ['a421']
+
+NODE: 854  rem -  ['a421']
+removed element a250
+tableminusrem
+
+NODE: 409  intro ['a328', 'a421']
+introduced ['a328']
+
+NODE: 1116  rem -  ['a328']
+removed element a421
+tableminusrem
+
+NODE: 675  intro ['a328', 'a388']
+introduced ['a388']
+
+NODE: 404  join
+----------------
+
+NODE: 1112  rem -  ['a388']
+removed element a328
+tableminusrem
+
+NODE: 1421  intro ['a233', 'a388']
+introduced ['a233']
+
+NODE: 671  intro ['a233', 'a243', 'a388']
+introduced ['a243']
+
+NODE: 400  join
+----------------
+
+NODE: 1197  rem -  ['a233', 'a388']
+removed element a243
+tableminusrem
+
+NODE: 1110  rem -  ['a233']
+removed element a388
+tableminusrem
+
+NODE: 1420  intro ['a105', 'a233']
+introduced ['a105']
+
+NODE: 669  intro ['a105', 'a233', 'a355']
+introduced ['a355']
+
+NODE: 395  join
+----------------
+
+NODE: 1196  rem -  ['a105', 'a355']
+removed element a233
+tableminusrem
+
+NODE: 1107  rem -  ['a105']
+removed element a355
+tableminusrem
+
+NODE: 666  intro ['a0', 'a105']
+introduced ['a0']
+
+NODE: 1557 leaf
+
+NODE: 1848  intro ['a217']
+introduced ['a217']
+
+NODE: 403  intro ['a217', 'a389']
+introduced ['a389']
+
+NODE: 850  rem -  ['a217']
+removed element a389
+tableminusrem
+
+NODE: 399  intro ['a163', 'a217']
+introduced ['a163']
+
+NODE: 848  rem -  ['a163']
+removed element a217
+tableminusrem
+
+NODE: 394  intro ['a105', 'a163']
+introduced ['a105']
+
+NODE: 1106  rem -  ['a105']
+removed element a163
+tableminusrem
+
+NODE: 665  intro ['a0', 'a105']
+introduced ['a0']
+
+NODE: 390  join
+----------------
+
+NODE: 1103  rem -  ['a0']
+removed element a105
+tableminusrem
+
+NODE: 1416  intro ['a0', 'a136']
+introduced ['a136']
+
+NODE: 662  intro ['a0', 'a136', 'a305']
+introduced ['a305']
+
+NODE: 1552 leaf
+
+NODE: 1843  intro ['a0']
+introduced ['a0']
+
+NODE: 1844  intro ['a0', 'a197']
+introduced ['a197']
+
+NODE: 389  intro ['a0', 'a197', 'a305']
+introduced ['a305']
+
+NODE: 1102  rem -  ['a0', 'a305']
+removed element a197
+tableminusrem
+
+NODE: 661  intro ['a0', 'a136', 'a305']
+introduced ['a136']
+
+NODE: 383  join
+----------------
+
+NODE: 1100  rem -  ['a136', 'a305']
+removed element a0
+tableminusrem
+
+NODE: 659  intro ['a136', 'a155', 'a305']
+introduced ['a155']
+
+NODE: 377  join
+----------------
+
+NODE: 1098  rem -  ['a155', 'a305']
+removed element a136
+tableminusrem
+
+NODE: 657  intro ['a155', 'a305', 'a73']
+introduced ['a73']
+
+NODE: 371  join
+----------------
+
+NODE: 834  rem -  ['a155', 'a73']
+removed element a305
+tableminusrem
+
+NODE: 365  intro ['a155', 'a476', 'a73']
+introduced ['a476']
+
+NODE: 831  rem -  ['a155', 'a476']
+removed element a73
+tableminusrem
+
+NODE: 359  intro ['a155', 'a240', 'a476']
+introduced ['a240']
+
+NODE: 827  rem -  ['a240', 'a476']
+removed element a155
+tableminusrem
+
+NODE: 353  intro ['a240', 'a326', 'a476']
+introduced ['a326']
+
+NODE: 825  rem -  ['a326', 'a476']
+removed element a240
+tableminusrem
+
+NODE: 346  intro ['a258', 'a326', 'a476']
+introduced ['a258']
+
+NODE: 821  rem -  ['a258', 'a326']
+removed element a476
+tableminusrem
+
+NODE: 339  intro ['a258', 'a326', 'a433']
+introduced ['a433']
+
+NODE: 1078  rem -  ['a326', 'a433']
+removed element a258
+tableminusrem
+
+NODE: 1398  intro ['a145', 'a326', 'a433']
+introduced ['a145']
+
+NODE: 637  intro ['a145', 'a326', 'a433', 'a499']
+introduced ['a499']
+
+NODE: 1539 leaf
+
+NODE: 1821  intro ['a145']
+introduced ['a145']
+
+NODE: 1822  intro ['a145', 'a252']
+introduced ['a252']
+
+NODE: 345  intro ['a145', 'a252', 'a75']
+introduced ['a75']
+
+NODE: 1083  rem -  ['a145', 'a252']
+removed element a75
+tableminusrem
+
+NODE: 642  intro ['a145', 'a252', 'a433']
+introduced ['a433']
+
+NODE: 1538 leaf
+
+NODE: 1819  intro ['a145']
+introduced ['a145']
+
+NODE: 1820  intro ['a145', 'a173']
+introduced ['a173']
+
+NODE: 344  intro ['a145', 'a173', 'a252']
+introduced ['a252']
+
+NODE: 1082  rem -  ['a145', 'a252']
+removed element a173
+tableminusrem
+
+NODE: 641  intro ['a145', 'a252', 'a433']
+introduced ['a433']
+
+NODE: 338  join
+----------------
+
+NODE: 1077  rem -  ['a145', 'a433']
+removed element a252
+tableminusrem
+
+NODE: 1397  intro ['a145', 'a326', 'a433']
+introduced ['a326']
+
+NODE: 636  intro ['a145', 'a326', 'a433', 'a499']
+introduced ['a499']
+
+NODE: 334  join
+----------------
+
+NODE: 818  rem -  ['a145', 'a326', 'a499']
+removed element a433
+tableminusrem
+
+NODE: 327  intro ['a145', 'a188', 'a326', 'a499']
+introduced ['a188']
+
+NODE: 816  rem -  ['a145', 'a188', 'a326']
+removed element a499
+tableminusrem
+
+NODE: 321  intro ['a145', 'a188', 'a196', 'a326']
+introduced ['a196']
+
+NODE: 1065  rem -  ['a145', 'a188', 'a196']
+removed element a326
+tableminusrem
+
+NODE: 624  intro ['a145', 'a188', 'a196', 'a9']
+introduced ['a9']
+
+NODE: 1542 leaf
+
+NODE: 1827  intro ['a171']
+introduced ['a171']
+
+NODE: 1828  intro ['a171', 'a429']
+introduced ['a429']
+
+NODE: 352  intro ['a171', 'a429', 'a444']
+introduced ['a444']
+
+NODE: 824  rem -  ['a429', 'a444']
+removed element a171
+tableminusrem
+
+NODE: 343  intro ['a370', 'a429', 'a444']
+introduced ['a370']
+
+NODE: 820  rem -  ['a370', 'a429']
+removed element a444
+tableminusrem
+
+NODE: 337  intro ['a318', 'a370', 'a429']
+introduced ['a318']
+
+NODE: 1076  rem -  ['a318', 'a429']
+removed element a370
+tableminusrem
+
+NODE: 635  intro ['a196', 'a318', 'a429']
+introduced ['a196']
+
+NODE: 1537 leaf
+
+NODE: 1817  intro ['a196']
+introduced ['a196']
+
+NODE: 1818  intro ['a196', 'a209']
+introduced ['a209']
+
+NODE: 336  intro ['a196', 'a209', 'a429']
+introduced ['a429']
+
+NODE: 1075  rem -  ['a196', 'a429']
+removed element a209
+tableminusrem
+
+NODE: 634  intro ['a196', 'a318', 'a429']
+introduced ['a318']
+
+NODE: 333  join
+----------------
+
+NODE: 1074  rem -  ['a196', 'a318']
+removed element a429
+tableminusrem
+
+NODE: 1396  intro ['a196', 'a262', 'a318']
+introduced ['a262']
+
+NODE: 633  intro ['a196', 'a262', 'a318', 'a81']
+introduced ['a81']
+
+NODE: 1536 leaf
+
+NODE: 1815  intro ['a214']
+introduced ['a214']
+
+NODE: 1816  intro ['a214', 'a318']
+introduced ['a318']
+
+NODE: 332  intro ['a214', 'a318', 'a81']
+introduced ['a81']
+
+NODE: 1073  rem -  ['a318', 'a81']
+removed element a214
+tableminusrem
+
+NODE: 1395  intro ['a196', 'a318', 'a81']
+introduced ['a196']
+
+NODE: 632  intro ['a196', 'a262', 'a318', 'a81']
+introduced ['a262']
+
+NODE: 326  join
+----------------
+
+NODE: 1192  rem -  ['a196', 'a318', 'a81']
+removed element a262
+tableminusrem
+
+NODE: 1069  rem -  ['a196', 'a81']
+removed element a318
+tableminusrem
+
+NODE: 1393  intro ['a188', 'a196', 'a81']
+introduced ['a188']
+
+NODE: 628  intro ['a188', 'a196', 'a81', 'a9']
+introduced ['a9']
+
+NODE: 1535 leaf
+
+NODE: 1812  intro ['a148']
+introduced ['a148']
+
+NODE: 1813  intro ['a148', 'a256']
+introduced ['a256']
+
+NODE: 1814  intro ['a148', 'a256', 'a342']
+introduced ['a342']
+
+NODE: 331  intro ['a148', 'a256', 'a342', 'a90']
+introduced ['a90']
+
+NODE: 1142  rem -  ['a256', 'a342', 'a90']
+removed element a148
+tableminusrem
+
+NODE: 817  rem -  ['a342', 'a90']
+removed element a256
+tableminusrem
+
+NODE: 1233  intro ['a342', 'a81', 'a90']
+introduced ['a81']
+
+NODE: 325  intro ['a342', 'a81', 'a9', 'a90']
+introduced ['a9']
+
+NODE: 1191  rem -  ['a81', 'a9', 'a90']
+removed element a342
+tableminusrem
+
+NODE: 1068  rem -  ['a81', 'a9']
+removed element a90
+tableminusrem
+
+NODE: 1392  intro ['a188', 'a81', 'a9']
+introduced ['a188']
+
+NODE: 627  intro ['a188', 'a196', 'a81', 'a9']
+introduced ['a196']
+
+NODE: 320  join
+----------------
+
+NODE: 1064  rem -  ['a188', 'a196', 'a9']
+removed element a81
+tableminusrem
+
+NODE: 623  intro ['a145', 'a188', 'a196', 'a9']
+introduced ['a145']
+
+NODE: 694  join
+----------------
+
+NODE: 1532 leaf
+
+NODE: 1805  intro ['a15']
+introduced ['a15']
+
+NODE: 1806  intro ['a15', 'a188']
+introduced ['a188']
+
+NODE: 324  intro ['a15', 'a188', 'a34']
+introduced ['a34']
+
+NODE: 815  rem -  ['a15', 'a188']
+removed element a34
+tableminusrem
+
+NODE: 319  intro ['a145', 'a15', 'a188']
+introduced ['a145']
+
+NODE: 1063  rem -  ['a145', 'a188']
+removed element a15
+tableminusrem
+
+NODE: 1388  intro ['a145', 'a188', 'a196']
+introduced ['a196']
+
+NODE: 622  intro ['a145', 'a188', 'a196', 'a9']
+introduced ['a9']
+
+NODE: 315  join
+----------------
+
+NODE: 1137  rem -  ['a145', 'a196', 'a9']
+removed element a188
+tableminusrem
+
+NODE: 813  rem -  ['a145', 'a9']
+removed element a196
+tableminusrem
+
+NODE: 310  intro ['a132', 'a145', 'a9']
+introduced ['a132']
+
+NODE: 1057  rem -  ['a132', 'a9']
+removed element a145
+tableminusrem
+
+NODE: 1383  intro ['a132', 'a185', 'a9']
+introduced ['a185']
+
+NODE: 616  intro ['a132', 'a185', 'a435', 'a9']
+introduced ['a435']
+
+NODE: 693  join
+----------------
+
+NODE: 1530 leaf
+
+NODE: 1800  intro ['a135']
+introduced ['a135']
+
+NODE: 1801  intro ['a135', 'a185']
+introduced ['a185']
+
+NODE: 1802  intro ['a135', 'a185', 'a435']
+introduced ['a435']
+
+NODE: 318  intro ['a135', 'a185', 'a435', 'a49']
+introduced ['a49']
+
+NODE: 1062  rem -  ['a185', 'a435', 'a49']
+removed element a135
+tableminusrem
+
+NODE: 621  intro ['a146', 'a185', 'a435', 'a49']
+introduced ['a146']
+
+NODE: 1529 leaf
+
+NODE: 1799  intro ['a392']
+introduced ['a392']
+
+NODE: 317  intro ['a392', 'a49']
+introduced ['a49']
+
+NODE: 1061  rem -  ['a49']
+removed element a392
+tableminusrem
+
+NODE: 1386  intro ['a146', 'a49']
+introduced ['a146']
+
+NODE: 1387  intro ['a146', 'a185', 'a49']
+introduced ['a185']
+
+NODE: 620  intro ['a146', 'a185', 'a435', 'a49']
+introduced ['a435']
+
+NODE: 314  join
+----------------
+
+NODE: 1060  rem -  ['a146', 'a185', 'a435']
+removed element a49
+tableminusrem
+
+NODE: 619  intro ['a146', 'a185', 'a435', 'a9']
+introduced ['a9']
+
+NODE: 1528 leaf
+
+NODE: 1798  intro ['a146']
+introduced ['a146']
+
+NODE: 313  intro ['a146', 'a400']
+introduced ['a400']
+
+NODE: 1059  rem -  ['a146']
+removed element a400
+tableminusrem
+
+NODE: 1384  intro ['a146', 'a185']
+introduced ['a185']
+
+NODE: 1385  intro ['a146', 'a185', 'a435']
+introduced ['a435']
+
+NODE: 618  intro 
+[startup+102.301 s]
+/proc/loadavg: 1.16 1.22 1.19 2/795 222236
+/proc/meminfo: memFree=6504568/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=774456 memory=705908 CPUtime=100.51 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 190167 3285 0 0 9658 284 107 2 20 0 1 0 26067309 793042944 176477 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 193614 176477 7616 688 0 171442 0
+Current children cumulated CPU time: 100.51 s
+Current children cumulated vsize: 777352 KiB
+Current children cumulated memory: 707444 KiB
+['a146', 'a185', 'a435', 'a9']
+introduced ['a9']
+
+NODE: 309  join
+----------------
+
+NODE: 1056  rem -  ['a185', 'a435', 'a9']
+removed element a146
+tableminusrem
+
+NODE: 615  intro ['a132', 'a185', 'a435', 'a9']
+introduced ['a132']
+
+NODE: 304  join
+----------------
+
+NODE: 1052  rem -  ['a132', 'a185', 'a435']
+removed element a9
+tableminusrem
+
+NODE: 611  intro ['a132', 'a177', 'a185', 'a435']
+introduced ['a177']
+
+NODE: 301  join
+----------------
+
+NODE: 1188  rem -  ['a177', 'a185', 'a435']
+removed element a132
+tableminusrem
+
+NODE: 1050  rem -  ['a177', 'a185']
+removed element a435
+tableminusrem
+
+NODE: 1380  intro ['a177', 'a185', 'a41']
+introduced ['a41']
+
+NODE: 609  intro ['a177', 'a185', 'a41', 'a53']
+introduced ['a53']
+
+NODE: 298  join
+----------------
+
+NODE: 1187  rem -  ['a185', 'a41', 'a53']
+removed element a177
+tableminusrem
+
+NODE: 1047  rem -  ['a185', 'a41']
+removed element a53
+tableminusrem
+
+NODE: 606  intro ['a185', 'a41', 'a6']
+introduced ['a6']
+
+NODE: 296  join
+----------------
+
+NODE: 808  rem -  ['a185', 'a6']
+removed element a41
+tableminusrem
+
+NODE: 292  intro ['a162', 'a185', 'a6']
+introduced ['a162']
+
+NODE: 804  rem -  ['a162', 'a6']
+removed element a185
+tableminusrem
+
+NODE: 287  intro ['a147', 'a162', 'a6']
+introduced ['a147']
+
+NODE: 1043  rem -  ['a147', 'a162']
+removed element a6
+tableminusrem
+
+NODE: 602  intro ['a147', 'a162', 'a436']
+introduced ['a436']
+
+NODE: 280  join
+----------------
+
+NODE: 798  rem -  ['a147', 'a436']
+removed element a162
+tableminusrem
+
+NODE: 271  intro ['a147', 'a234', 'a436']
+introduced ['a234']
+
+NODE: 1039  rem -  ['a147', 'a234']
+removed element a436
+tableminusrem
+
+NODE: 598  intro ['a111', 'a147', 'a234']
+introduced ['a111']
+
+NODE: 262  join
+----------------
+
+NODE: 1182  rem -  ['a147', 'a234']
+removed element a111
+tableminusrem
+
+NODE: 1183  rem -  ['a234']
+removed element a147
+tableminusrem
+
+NODE: 1033  rem -  []
+removed element a234
+tableminusrem
+
+NODE: 1372  intro ['a369']
+introduced ['a369']
+
+NODE: 592  intro ['a369', 'a463']
+introduced ['a463']
+
+NODE: 255  join
+----------------
+
+NODE: 1029  rem -  ['a463']
+removed element a369
+tableminusrem
+
+NODE: 588  intro ['a463', 'a84']
+introduced ['a84']
+
+NODE: 250  join
+----------------
+
+NODE: 780  rem -  ['a84']
+removed element a463
+tableminusrem
+
+NODE: 243  intro ['a179', 'a84']
+introduced ['a179']
+
+NODE: 1024  rem -  ['a179']
+removed element a84
+tableminusrem
+
+NODE: 1368  intro ['a179', 'a294']
+introduced ['a294']
+
+NODE: 583  intro ['a179', 'a294', 'a317']
+introduced ['a317']
+
+NODE: 1518 leaf
+
+NODE: 1779  intro ['a22']
+introduced ['a22']
+
+NODE: 1780  intro ['a22', 'a257']
+introduced ['a257']
+
+NODE: 286  intro ['a22', 'a257', 'a287']
+introduced ['a287']
+
+NODE: 802  rem -  ['a257', 'a287']
+removed element a22
+tableminusrem
+
+NODE: 279  intro ['a203', 'a257', 'a287']
+introduced ['a203']
+
+NODE: 797  rem -  ['a203', 'a257']
+removed element a287
+tableminusrem
+
+NODE: 270  intro ['a203', 'a257', 'a99']
+introduced ['a99']
+
+NODE: 790  rem -  ['a203', 'a99']
+removed element a257
+tableminusrem
+
+NODE: 261  intro ['a203', 'a418', 'a99']
+introduced ['a418']
+
+NODE: 1032  rem -  ['a203', 'a418']
+removed element a99
+tableminusrem
+
+NODE: 591  intro ['a108', 'a203', 'a418']
+introduced ['a108']
+
+NODE: 1514 leaf
+
+NODE: 1772  intro ['a3']
+introduced ['a3']
+
+NODE: 278  intro ['a3', 'a442']
+introduced ['a442']
+
+NODE: 796  rem -  ['a442']
+removed element a3
+tableminusrem
+
+NODE: 269  intro ['a347', 'a442']
+introduced ['a347']
+
+NODE: 789  rem -  ['a347']
+removed element a442
+tableminusrem
+
+NODE: 1228  intro ['a108', 'a347']
+introduced ['a108']
+
+NODE: 260  intro ['a108', 'a347', 'a418']
+introduced ['a418']
+
+NODE: 1031  rem -  ['a108', 'a418']
+removed element a347
+tableminusrem
+
+NODE: 590  intro ['a108', 'a203', 'a418']
+introduced ['a203']
+
+NODE: 254  join
+----------------
+
+NODE: 784  rem -  ['a108', 'a203']
+removed element a418
+tableminusrem
+
+NODE: 249  intro ['a108', 'a203', 'a294']
+introduced ['a294']
+
+NODE: 779  rem -  ['a203', 'a294']
+removed element a108
+tableminusrem
+
+NODE: 242  intro ['a203', 'a294', 'a92']
+introduced ['a92']
+
+NODE: 1181  rem -  ['a294', 'a92']
+removed element a203
+tableminusrem
+
+NODE: 1023  rem -  ['a294']
+removed element a92
+tableminusrem
+
+NODE: 1367  intro ['a179', 'a294']
+introduced ['a179']
+
+NODE: 582  intro ['a179', 'a294', 'a317']
+introduced ['a317']
+
+NODE: 691  join
+----------------
+
+NODE: 1507 leaf
+
+NODE: 1760  intro ['a291']
+introduced ['a291']
+
+NODE: 1761  intro ['a291', 'a294']
+introduced ['a294']
+
+NODE: 241  intro ['a291', 'a294', 'a317']
+introduced ['a317']
+
+NODE: 1022  rem -  ['a294', 'a317']
+removed element a291
+tableminusrem
+
+NODE: 581  intro ['a179', 'a294', 'a317']
+introduced ['a179']
+
+NODE: 234  join
+----------------
+
+NODE: 1135  rem -  ['a294', 'a317']
+removed element a179
+tableminusrem
+
+NODE: 773  rem -  ['a317']
+removed element a294
+tableminusrem
+
+NODE: 225  intro ['a255', 'a317']
+introduced ['a255']
+
+NODE: 1014  rem -  ['a255']
+removed element a317
+tableminusrem
+
+NODE: 1358  intro ['a226', 'a255']
+introduced ['a226']
+
+NODE: 573  intro ['a226', 'a255', 'a397']
+introduced ['a397']
+
+NODE: 214  join
+----------------
+
+NODE: 1179  rem -  ['a255', 'a397']
+removed element a226
+tableminusrem
+
+NODE: 1003  rem -  ['a397']
+removed element a255
+tableminusrem
+
+NODE: 1352  intro ['a300', 'a397']
+introduced ['a300']
+
+NODE: 562  intro ['a300', 'a397', 'a496']
+introduced ['a496']
+
+NODE: 1495 leaf
+
+NODE: 1741  intro ['a20']
+introduced ['a20']
+
+NODE: 213  intro ['a20', 'a397']
+introduced ['a397']
+
+NODE: 1002  rem -  ['a397']
+removed element a20
+tableminusrem
+
+NODE: 1351  intro ['a300', 'a397']
+introduced ['a300']
+
+NODE: 561  intro ['a300', 'a397', 'a496']
+introduced ['a496']
+
+NODE: 205  join
+----------------
+
+NODE: 768  rem -  ['a300', 'a496']
+removed element a397
+tableminusrem
+
+NODE: 1223  intro ['a300', 'a450', 'a496']
+introduced ['a450']
+
+NODE: 193  intro ['a300', 'a450', 'a46', 'a496']
+introduced ['a46']
+
+NODE: 987  rem -  ['a450', 'a46', 'a496']
+removed element a300
+tableminusrem
+
+NODE: 1345  intro ['a405', 'a450', 'a46', 'a496']
+introduced ['a405']
+
+NODE: 546  intro ['a405', 'a450', 'a46', 'a47', 'a496']
+introduced ['a47']
+
+NODE: 1491 leaf
+
+NODE: 1733  intro ['a193']
+introduced ['a193']
+
+NODE: 1734  intro ['a193', 'a47']
+introduced ['a47']
+
+NODE: 204  intro ['a193', 'a47', 'a76']
+introduced ['a76']
+
+NODE: 995  rem -  ['a193', 'a47']
+removed element a76
+tableminusrem
+
+NODE: 554  intro ['a193', 'a47', 'a496']
+introduced ['a496']
+
+NODE: 1490 leaf
+
+NODE: 1731  intro ['a193']
+introduced ['a193']
+
+NODE: 1732  intro ['a193', 'a496']
+introduced ['a496']
+
+NODE: 203  intro ['a193', 'a496', 'a94']
+introduced ['a94']
+
+NODE: 994  rem -  ['a193', 'a496']
+removed element a94
+tableminusrem
+
+NODE: 553  intro ['a193', 'a47', 'a496']
+introduced ['a47']
+
+NODE: 192  join
+----------------
+
+NODE: 986  rem -  ['a47', 'a496']
+removed element a193
+tableminusrem
+
+NODE: 1343  intro ['a405', 'a47', 'a496']
+introduced ['a405']
+
+NODE: 1344  intro ['a405', 'a450', 'a47', 'a496']
+introduced ['a450']
+
+NODE: 545  intro ['a405', 'a450', 'a46', 'a47', 'a496']
+introduced ['a46']
+
+NODE: 178  join
+----------------
+
+NODE: 1133  rem -  ['a450', 'a46', 'a47', 'a496']
+removed element a405
+tableminusrem
+
+NODE: 761  rem -  ['a450', 'a46', 'a47']
+removed element a496
+tableminusrem
+
+NODE: 166  intro ['a416', 'a450', 'a46', 'a47']
+introduced ['a416']
+
+NODE: 1174  rem -  ['a416', 'a46', 'a47']
+removed element a450
+tableminusrem
+
+NODE: 970  rem -  ['a416', 'a47']
+removed element a46
+tableminusrem
+
+NODE: 529  intro ['a351', 'a416', 'a47']
+introduced ['a351']
+
+NODE: 1484 leaf
+
+NODE: 1719  intro ['a281']
+introduced ['a281']
+
+NODE: 1720  intro ['a281', 'a445']
+introduced ['a445']
+
+NODE: 191  intro ['a281', 'a445', 'a47']
+introduced ['a47']
+
+NODE: 764  rem -  ['a281', 'a47']
+removed element a445
+tableminusrem
+
+NODE: 177  intro ['a152', 'a281', 'a47']
+introduced ['a152']
+
+NODE: 760  rem -  ['a152', 'a47']
+removed element a281
+tableminusrem
+
+NODE: 165  intro ['a152', 'a351', 'a47']
+introduced ['a351']
+
+NODE: 969  rem -  ['a351', 'a47']
+removed element a152
+tableminusrem
+
+NODE: 528  intro ['a351', 'a416', 'a47']
+introduced ['a416']
+
+NODE: 154  join
+----------------
+
+NODE: 748  rem -  ['a351', 'a416']
+removed element a47
+tableminusrem
+
+NODE: 139  intro ['a138', 'a351', 'a416']
+introduced ['a138']
+
+NODE: 952  rem -  ['a138', 'a416']
+removed element a351
+tableminusrem
+
+NODE: 511  intro ['a138', 'a246', 'a416']
+introduced ['a246']
+
+NODE: 1483 leaf
+
+NODE: 1716  intro ['a192']
+introduced ['a192']
+
+NODE: 1717  intro ['a192', 'a253']
+introduced ['a253']
+
+NODE: 1718  intro ['a192', 'a253', 'a273']
+introduced ['a273']
+
+NODE: 190  intro ['a192', 'a253', 'a273', 'a472']
+introduced ['a472']
+
+NODE: 985  rem -  ['a192', 'a253', 'a472']
+removed element a273
+tableminusrem
+
+NODE: 544  intro ['a192', 'a236', 'a253', 'a472']
+introduced ['a236']
+
+NODE: 1482 leaf
+
+NODE: 1714  intro ['a236']
+introduced ['a236']
+
+NODE: 1715  intro ['a236', 'a459']
+introduced ['a459']
+
+NODE: 189  intro ['a236', 'a459', 'a472']
+introduced ['a472']
+
+NODE: 984  rem -  ['a236', 'a472']
+removed element a459
+tableminusrem
+
+NODE: 1342  intro ['a192', 'a236', 'a472']
+introduced ['a192']
+
+NODE: 543  intro ['a192', 'a236', 'a253', 'a472']
+introduced ['a253']
+
+NODE: 176  join
+----------------
+
+NODE: 1132  rem -  ['a236', 'a253', 'a472']
+removed element a192
+tableminusrem
+
+NODE: 759  rem -  ['a236', 'a253']
+removed element a472
+tableminusrem
+
+NODE: 164  intro ['a236', 'a253', 'a416']
+introduced ['a416']
+
+NODE: 754  rem -  ['a236', 'a416']
+removed element a253
+tableminusrem
+
+NODE: 153  intro ['a236', 'a416', 'a420']
+introduced ['a420']
+
+NODE: 964  rem -  ['a416', 'a420']
+removed element a236
+tableminusrem
+
+NODE: 523  intro ['a246', 'a416', 'a420']
+introduced ['a246']
+
+NODE: 1471 leaf
+
+NODE: 1689  intro ['a246']
+introduced ['a246']
+
+NODE: 1690  intro ['a246', 'a403']
+introduced ['a403']
+
+NODE: 152  intro ['a246', 'a403', 'a420']
+introduced ['a420']
+
+NODE: 963  rem -  ['a246', 'a420']
+removed element a403
+tableminusrem
+
+NODE: 522  intro ['a246', 'a416', 'a420']
+introduced ['a416']
+
+NODE: 138  join
+----------------
+
+NODE: 951  rem -  ['a246', 'a416']
+removed element a420
+tableminusrem
+
+NODE: 510  intro ['a138', 'a246', 'a416']
+introduced ['a138']
+
+NODE: 128  join
+----------------
+
+NODE: 741  rem -  ['a138', 'a246']
+removed element a416
+tableminusrem
+
+NODE: 118  intro ['a138', 'a246', 'a393']
+introduced ['a393']
+
+NODE: 739  rem -  ['a138', 'a393']
+removed element a246
+tableminusrem
+
+NODE: 1209  intro ['a138', 'a207', 'a393']
+introduced ['a207']
+
+NODE: 109  intro ['a138', 'a207', 'a393', 'a485']
+introduced ['a485']
+
+NODE: 733  rem -  ['a207', 'a393', 'a485']
+removed element a138
+tableminusrem
+
+NODE: 95  intro ['a207', 'a21', 'a393', 'a485']
+introduced ['a21']
+
+NODE: 727  rem -  ['a21', 'a393', 'a485']
+removed element a207
+tableminusrem
+
+NODE: 85  intro ['a19', 'a21', 'a393', 'a485']
+introduced ['a19']
+
+NODE: 1165  rem -  ['a19', 'a21', 'a485']
+removed element a393
+tableminusrem
+
+NODE: 917  rem -  ['a19', 'a21']
+removed element a485
+tableminusrem
+
+NODE: 476  intro ['a19', 'a21', 'a479']
+introduced ['a479']
+
+NODE: 1450 leaf
+
+NODE: 1639  intro ['a114']
+introduced ['a114']
+
+NODE: 1640  intro ['a114', 'a19']
+introduced ['a19']
+
+NODE: 84  intro ['a114', 'a19', 'a479']
+introduced ['a479']
+
+NODE: 916  rem -  ['a19', 'a479']
+removed element a114
+tableminusrem
+
+NODE: 475  intro ['a19', 'a21', 'a479']
+introduced ['a21']
+
+NODE: 76  join
+----------------
+
+NODE: 912  rem -  ['a21', 'a479']
+removed element a19
+tableminusrem
+
+NODE: 1285  intro ['a151', 'a21', 'a479']
+introduced ['a151']
+
+NODE: 471  intro ['a151', 'a21', 'a479', 'a497']
+introduced ['a497']
+
+NODE: 1442 leaf
+
+NODE: 1619  intro ['a247']
+introduced ['a247']
+
+NODE: 1620  intro ['a247', 'a302']
+introduced ['a302']
+
+NODE: 59  intro ['a247', 'a302', 'a497']
+introduced ['a497']
+
+NODE: 904  rem -  ['a247', 'a497']
+removed element a302
+tableminusrem
+
+NODE: 1277  intro ['a247', 'a322', 'a497']
+introduced ['a322']
+
+NODE: 463  intro ['a247', 'a322', 'a479', 'a497']
+introduced ['a479']
+
+NODE: 1438 leaf
+
+NODE: 1608  intro ['a18']
+introduced ['a18']
+
+NODE: 1609  intro ['a18', 'a247']
+introduced ['a247']
+
+NODE: 1610  intro ['a18', 'a247', 'a322']
+introduced ['a322']
+
+NODE: 1611  intro ['a18', 'a247', 'a322', 'a352']
+introduced ['a352']
+
+NODE: 48  intro ['a18', 'a247', 'a322', 'a352', 'a359']
+introduced ['a359']
+
+NODE: 898  rem -  ['a18', 'a247', 'a322', 'a352']
+removed element a359
+tableminusrem
+
+NODE: 457  intro ['a18', 'a247', 'a322', 'a352', 'a479']
+introduced ['a479']
+
+NODE: 1437 leaf
+
+NODE: 1606  intro ['a247']
+introduced ['a247']
+
+NODE: 1607  intro ['a247', 'a352']
+introduced ['a352']
+
+NODE: 47  intro ['a247', 'a352', 'a378']
+introduced ['a378']
+
+NODE: 897  rem -  ['a247', 'a352']
+removed element a378
+tableminusrem
+
+NODE: 1272  intro ['a18', 'a247', 'a352']
+introduced ['a18']
+
+NODE: 1273  intro ['a18', 'a247', 'a322', 'a352']
+introduced ['a322']
+
+NODE: 456  intro ['a18', 'a247', 'a322', 'a352', 'a479']
+introduced ['a479']
+
+NODE: 683  join
+----------------
+
+NODE: 1445 leaf
+
+NODE: 1625  intro ['a200']
+introduced ['a200']
+
+NODE: 1626  intro ['a200', 'a266']
+introduced ['a266']
+
+NODE: 68  intro ['a200', 'a266', 'a322']
+introduced ['a322']
+
+NODE: 717  rem -  ['a266', 'a322']
+removed element a200
+tableminusrem
+
+NODE: 1206  intro ['a18', 'a266', 'a322']
+introduced ['a18']
+
+NODE: 58  intro ['a18', 'a266', 'a322', 'a88']
+introduced ['a88']
+
+NODE: 902  rem -  ['a18', 'a322', 'a88']
+removed element a266
+tableminusrem
+
+NODE: 461  intro ['a18', 'a322', 'a479', 'a88']
+introduced ['a479']
+
+NODE: 1444 leaf
+
+NODE: 1624  intro ['a284']
+introduced ['a284']
+
+NODE: 67  intro ['a284', 'a319']
+introduced ['a319']
+
+NODE: 716  rem -  ['a319']
+removed element a284
+tableminusrem
+
+NODE: 1205  intro ['a319', 'a479']
+introduced ['a479']
+
+NODE: 57  intro ['a319', 'a479', 'a88']
+introduced ['a88']
+
+NODE: 901  rem -  ['a479', 'a88']
+removed element a319
+tableminusrem
+
+NODE: 1276  intro ['a18', 'a479', 'a88']
+introduced ['a18']
+
+NODE: 460  intro ['a18', 'a322', 'a479', 'a88']
+introduced ['a322']
+
+NODE: 46  join
+----------------
+
+NODE: 896  rem -  ['a18', 'a322', 'a479']
+removed element a88
+tableminusrem
+
+NODE: 1271  intro ['a18', 'a247', 'a322', 'a479']
+introduced ['a247']
+
+NODE: 455  intro ['a18', 'a247', 'a322', 'a352', 'a479']
+introduced ['a352']
+
+NODE: 682  join
+----------------
+
+NODE: 1433 leaf
+
+NODE: 1595  intro ['a18']
+introduced ['a18']
+
+NODE: 1596  intro ['a18', 'a254']
+introduced ['a254']
+
+NODE: 35  intro ['a18', 'a254', 'a352']
+introduced ['a352']
+
+NODE: 887  rem -  ['a18', 'a352']
+removed element a254
+tableminusrem
+
+NODE: 1262  intro ['a127', 'a18', 'a352']
+introduced ['a127']
+
+NODE: 446  intro ['a127', 'a18', 'a352', 'a479']
+introduced ['a479']
+
+NODE: 1436 leaf
+
+NODE: 1604  intro ['a374']
+introduced ['a374']
+
+NODE: 1605  intro ['a374', 'a387']
+introduced ['a387']
+
+NODE: 45  intro ['a374', 'a387', 'a479']
+introduced ['a479']
+
+NODE: 708  rem -  ['a374', 'a479']
+removed element a387
+tableminusrem
+
+NODE: 34  intro ['a127', 'a374', 'a479']
+introduced ['a127']
+
+NODE: 886  rem -  ['a127', 'a479']
+removed element a374
+tableminusrem
+
+NODE: 1261  intro ['a127', 'a18', 'a479']
+introduced ['a18']
+
+NODE: 445  intro ['a127', 'a18', 'a352', 'a479']
+introduced ['a352']
+
+NODE: 680  join
+----------------
+
+NODE: 1432 leaf
+
+NODE: 1593  intro ['a131']
+introduced ['a131']
+
+NODE: 1594  intro ['a131', 'a379']
+introduced ['a379']
+
+NODE: 33  intro ['a131', 'a379', 'a60']
+introduced ['a60']
+
+NODE: 706  rem -  ['a131', 'a60']
+removed element a379
+tableminusrem
+
+NODE: 1200  intro ['a127', 'a131', 'a60']
+introduced ['a127']
+
+NODE: 24  intro ['a127', 'a131', 'a338', 'a60']
+introduced ['a338']
+
+NODE: 879  rem -  ['a127', 'a338', 'a60']
+removed element a131
+tableminusrem
+
+NODE: 438  intro ['a127', 'a338', 'a352', 'a60']
+introduced ['a352']
+
+NODE: 1439 leaf
+
+NODE: 1612  intro ['a109']
+introduced ['a109']
+
+NODE: 1613  intro ['a109', 'a398']
+introduced ['a398']
+
+NODE: 50  intro ['a109', 'a398', 'a489']
+introduced ['a489']
+
+NODE: 709  rem -  ['a398', 'a489']
+removed element a109
+tableminusrem
+
+NODE: 37  intro ['a398', 'a460', 'a489']
+introduced ['a460']
+
+NODE: 707  rem -  ['a460', 'a489']
+removed element a398
+tableminusrem
+
+NODE: 1201  intro ['a130', 'a460', 'a489']
+introduced ['a130']
+
+NODE: 26  intro ['a130', 'a460', 'a489', 'a60']
+introduced ['a60']
+
+NODE: 704  rem -  
+[startup+162.301 s]
+/proc/loadavg: 1.19 1.22 1.19 2/795 222245
+/proc/meminfo: memFree=5787460/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=1492448 memory=1421664 CPUtime=159.54 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 592484 3285 0 0 15397 448 107 2 20 0 1 0 26067309 1528266752 355416 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 373112 355416 7616 688 0 350940 0
+Current children cumulated CPU time: 159.54 s
+Current children cumulated vsize: 1495344 KiB
+Current children cumulated memory: 1423200 KiB
+['a130', 'a460', 'a60']
+removed element a489
+tableminusrem
+
+NODE: 1199  intro ['a130', 'a230', 'a460', 'a60']
+introduced ['a230']
+
+NODE: 16  intro ['a130', 'a230', 'a338', 'a460', 'a60']
+introduced ['a338']
+
+NODE: 870  rem -  ['a230', 'a338', 'a460', 'a60']
+removed element a130
+tableminusrem
+
+NODE: 429  intro ['a230', 'a338', 'a352', 'a460', 'a60']
+introduced ['a352']
+
+NODE: 1424 leaf
+
+NODE: 1570  intro ['a230']
+introduced ['a230']
+
+NODE: 1571  intro ['a230', 'a338']
+introduced ['a338']
+
+NODE: 14  intro ['a230', 'a338', 'a72']
+introduced ['a72']
+
+NODE: 869  rem -  ['a230', 'a338']
+removed element a72
+tableminusrem
+
+NODE: 1248  intro ['a230', 'a338', 'a352']
+introduced ['a352']
+
+NODE: 1249  intro ['a230', 'a338', 'a352', 'a460']
+introduced ['a460']
+
+NODE: 428  intro ['a230', 'a338', 'a352', 'a460', 'a60']
+introduced ['a60']
+
+NODE: 677  join
+----------------
+
+NODE: 1428 leaf
+
+NODE: 1582  intro ['a210']
+introduced ['a210']
+
+NODE: 1583  intro ['a210', 'a345']
+introduced ['a345']
+
+NODE: 1584  intro ['a210', 'a345', 'a394']
+introduced ['a394']
+
+NODE: 23  intro ['a210', 'a345', 'a394', 'a428']
+introduced ['a428']
+
+NODE: 877  rem -  ['a210', 'a394', 'a428']
+removed element a345
+tableminusrem
+
+NODE: 1253  intro ['a210', 'a220', 'a394', 'a428']
+introduced ['a220']
+
+NODE: 1254  intro ['a210', 'a220', 'a380', 'a394', 'a428']
+introduced ['a380']
+
+NODE: 436  intro ['a210', 'a220', 'a380', 'a394', 'a428', 'a443']
+introduced ['a443']
+
+NODE: 1427 leaf
+
+NODE: 1577  intro ['a210']
+introduced ['a210']
+
+NODE: 1578  intro ['a210', 'a220']
+introduced ['a220']
+
+NODE: 1579  intro ['a210', 'a220', 'a311']
+introduced ['a311']
+
+NODE: 1580  intro ['a210', 'a220', 'a311', 'a380']
+introduced ['a380']
+
+NODE: 1581  intro ['a210', 'a220', 'a311', 'a380', 'a394']
+introduced ['a394']
+
+NODE: 22  intro ['a210', 'a220', 'a311', 'a380', 'a394', 'a443']
+introduced ['a443']
+
+NODE: 876  rem -  ['a210', 'a220', 'a380', 'a394', 'a443']
+removed element a311
+tableminusrem
+
+NODE: 435  intro ['a210', 'a220', 'a380', 'a394', 'a428', 'a443']
+introduced ['a428']
+
+NODE: 678  join
+----------------
+
+NODE: 1465 leaf
+
+NODE: 1675  intro ['a123']
+introduced ['a123']
+
+NODE: 1676  intro ['a123', 'a278']
+introduced ['a278']
+
+NODE: 1677  intro ['a123', 'a278', 'a324']
+introduced ['a324']
+
+NODE: 1678  intro ['a123', 'a278', 'a324', 'a337']
+introduced ['a337']
+
+NODE: 137  intro ['a123', 'a278', 'a324', 'a337', 'a449']
+introduced ['a449']
+
+NODE: 745  rem -  ['a123', 'a278', 'a324', 'a449']
+removed element a337
+tableminusrem
+
+NODE: 127  intro ['a123', 'a278', 'a324', 'a341', 'a449']
+introduced ['a341']
+
+NODE: 945  rem -  ['a123', 'a278', 'a341', 'a449']
+removed element a324
+tableminusrem
+
+NODE: 504  intro ['a123', 'a278', 'a341', 'a385', 'a449']
+introduced ['a385']
+
+NODE: 1463 leaf
+
+NODE: 1671  intro ['a271']
+introduced ['a271']
+
+NODE: 1672  intro ['a271', 'a385']
+introduced ['a385']
+
+NODE: 126  intro ['a271', 'a385', 'a449']
+introduced ['a449']
+
+NODE: 944  rem -  ['a385', 'a449']
+removed element a271
+tableminusrem
+
+NODE: 1315  intro ['a123', 'a385', 'a449']
+introduced ['a123']
+
+NODE: 1316  intro ['a123', 'a278', 'a385', 'a449']
+introduced ['a278']
+
+NODE: 503  intro ['a123', 'a278', 'a341', 'a385', 'a449']
+introduced ['a341']
+
+NODE: 117  join
+----------------
+
+NODE: 738  rem -  ['a123', 'a278', 'a341', 'a385']
+removed element a449
+tableminusrem
+
+NODE: 108  intro ['a123', 'a278', 'a341', 'a353', 'a385']
+introduced ['a353']
+
+NODE: 1125  rem -  ['a123', 'a341', 'a353', 'a385']
+removed element a278
+tableminusrem
+
+NODE: 732  rem -  ['a123', 'a353', 'a385']
+removed element a341
+tableminusrem
+
+NODE: 94  intro ['a123', 'a353', 'a37', 'a385']
+introduced ['a37']
+
+NODE: 925  rem -  ['a353', 'a37', 'a385']
+removed element a123
+tableminusrem
+
+NODE: 1294  intro ['a353', 'a358', 'a37', 'a385']
+introduced ['a358']
+
+NODE: 484  intro ['a353', 'a358', 'a37', 'a385', 'a44']
+introduced ['a44']
+
+NODE: 1460 leaf
+
+NODE: 1665  intro ['a306']
+introduced ['a306']
+
+NODE: 1666  intro ['a306', 'a358']
+introduced ['a358']
+
+NODE: 1667  intro ['a306', 'a358', 'a490']
+introduced ['a490']
+
+NODE: 116  intro ['a306', 'a358', 'a490', 'a98']
+introduced ['a98']
+
+NODE: 937  rem -  ['a358', 'a490', 'a98']
+removed element a306
+tableminusrem
+
+NODE: 496  intro ['a358', 'a385', 'a490', 'a98']
+introduced ['a385']
+
+NODE: 1464 leaf
+
+NODE: 1673  intro ['a187']
+introduced ['a187']
+
+NODE: 1674  intro ['a187', 'a439']
+introduced ['a439']
+
+NODE: 136  intro ['a187', 'a439', 'a490']
+introduced ['a490']
+
+NODE: 744  rem -  ['a187', 'a490']
+removed element a439
+tableminusrem
+
+NODE: 125  intro ['a187', 'a331', 'a490']
+introduced ['a331']
+
+NODE: 740  rem -  ['a331', 'a490']
+removed element a187
+tableminusrem
+
+NODE: 115  intro ['a331', 'a358', 'a490']
+introduced ['a358']
+
+NODE: 936  rem -  ['a358', 'a490']
+removed element a331
+tableminusrem
+
+NODE: 1304  intro ['a358', 'a385', 'a490']
+introduced ['a385']
+
+NODE: 495  intro ['a358', 'a385', 'a490', 'a98']
+introduced ['a98']
+
+NODE: 107  join
+----------------
+
+NODE: 731  rem -  ['a358', 'a385', 'a98']
+removed element a490
+tableminusrem
+
+NODE: 93  intro ['a358', 'a385', 'a44', 'a98']
+introduced ['a44']
+
+NODE: 924  rem -  ['a358', 'a385', 'a44']
+removed element a98
+tableminusrem
+
+NODE: 1293  intro ['a353', 'a358', 'a385', 'a44']
+introduced ['a353']
+
+NODE: 483  intro ['a353', 'a358', 'a37', 'a385', 'a44']
+introduced ['a37']
+
+NODE: 83  join
+----------------
+
+NODE: 725  rem -  ['a353', 'a358', 'a37', 'a44']
+removed element a385
+tableminusrem
+
+NODE: 75  intro ['a353', 'a358', 'a37', 'a431', 'a44']
+introduced ['a431']
+
+NODE: 722  rem -  ['a353', 'a358', 'a37', 'a431']
+removed element a44
+tableminusrem
+
+NODE: 66  intro ['a353', 'a358', 'a37', 'a431', 'a45']
+introduced ['a45']
+
+NODE: 908  rem -  ['a358', 'a37', 'a431', 'a45']
+removed element a353
+tableminusrem
+
+NODE: 467  intro ['a358', 'a37', 'a431', 'a45', 'a89']
+introduced ['a89']
+
+NODE: 1477 leaf
+
+NODE: 1702  intro ['a27']
+introduced ['a27']
+
+NODE: 175  intro ['a27', 'a336']
+introduced ['a336']
+
+NODE: 758  rem -  ['a336']
+removed element a27
+tableminusrem
+
+NODE: 1221  intro ['a172', 'a336']
+introduced ['a172']
+
+NODE: 163  intro ['a172', 'a242', 'a336']
+introduced ['a242']
+
+NODE: 753  rem -  ['a172', 'a242']
+removed element a336
+tableminusrem
+
+NODE: 1218  intro ['a172', 'a242', 'a320']
+introduced ['a320']
+
+NODE: 1219  intro ['a172', 'a242', 'a320', 'a417']
+introduced ['a417']
+
+NODE: 151  intro ['a172', 'a242', 'a320', 'a417', 'a495']
+introduced ['a495']
+
+NODE: 962  rem -  ['a172', 'a320', 'a417', 'a495']
+removed element a242
+tableminusrem
+
+NODE: 521  intro ['a172', 'a320', 'a364', 'a417', 'a495']
+introduced ['a364']
+
+NODE: 1470 leaf
+
+NODE: 1687  intro ['a364']
+introduced ['a364']
+
+NODE: 1688  intro ['a364', 'a495']
+introduced ['a495']
+
+NODE: 150  intro ['a364', 'a495', 'a79']
+introduced ['a79']
+
+NODE: 961  rem -  ['a364', 'a495']
+removed element a79
+tableminusrem
+
+NODE: 1327  intro ['a172', 'a364', 'a495']
+introduced ['a172']
+
+NODE: 1328  intro ['a172', 'a320', 'a364', 'a495']
+introduced ['a320']
+
+NODE: 520  intro ['a172', 'a320', 'a364', 'a417', 'a495']
+introduced ['a417']
+
+NODE: 135  join
+----------------
+
+NODE: 950  rem -  ['a172', 'a320', 'a364', 'a417']
+removed element a495
+tableminusrem
+
+NODE: 509  intro ['a172', 'a310', 'a320', 'a364', 'a417']
+introduced ['a310']
+
+NODE: 1474 leaf
+
+NODE: 1696  intro ['a219']
+introduced ['a219']
+
+NODE: 162  intro ['a219', 'a5']
+introduced ['a5']
+
+NODE: 752  rem -  ['a5']
+removed element a219
+tableminusrem
+
+NODE: 1216  intro ['a320', 'a5']
+introduced ['a320']
+
+NODE: 1217  intro ['a320', 'a39', 'a5']
+introduced ['a39']
+
+NODE: 149  intro ['a320', 'a39', 'a417', 'a5']
+introduced ['a417']
+
+NODE: 960  rem -  ['a320', 'a39', 'a417']
+removed element a5
+tableminusrem
+
+NODE: 1326  intro ['a310', 'a320', 'a39', 'a417']
+introduced ['a310']
+
+NODE: 519  intro ['a310', 'a320', 'a364', 'a39', 'a417']
+introduced ['a364']
+
+NODE: 1469 leaf
+
+NODE: 1685  intro ['a10']
+introduced ['a10']
+
+NODE: 1686  intro ['a10', 'a310']
+introduced ['a310']
+
+NODE: 148  intro ['a10', 'a310', 'a39']
+introduced ['a39']
+
+NODE: 959  rem -  ['a310', 'a39']
+removed element a10
+tableminusrem
+
+NODE: 1324  intro ['a310', 'a320', 'a39']
+introduced ['a320']
+
+NODE: 1325  intro 
+[startup+222.301 s]
+/proc/loadavg: 1.16 1.21 1.18 2/796 222252
+/proc/meminfo: memFree=5306644/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=1975776 memory=1901424 CPUtime=218.58 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 820249 3285 0 0 21175 574 107 2 20 0 1 0 26067309 2023194624 475356 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 493944 475356 7616 688 0 471772 0
+Current children cumulated CPU time: 218.58 s
+Current children cumulated vsize: 1978672 KiB
+Current children cumulated memory: 1902960 KiB
+['a310', 'a320', 'a364', 'a39']
+introduced ['a364']
+
+NODE: 518  intro ['a310', 'a320', 'a364', 'a39', 'a417']
+introduced ['a417']
+
+NODE: 134  join
+----------------
+
+NODE: 949  rem -  ['a310', 'a320', 'a364', 'a417']
+removed element a39
+tableminusrem
+
+NODE: 508  intro ['a172', 'a310', 'a320', 'a364', 'a417']
+introduced ['a172']
+
+NODE: 687  join
+----------------
+
+NODE: 1481 leaf
+
+NODE: 1712  intro ['a169']
+introduced ['a169']
+
+NODE: 1713  intro ['a169', 'a307']
+introduced ['a307']
+
+NODE: 188  intro ['a169', 'a307', 'a498']
+introduced ['a498']
+
+NODE: 983  rem -  ['a307', 'a498']
+removed element a169
+tableminusrem
+
+NODE: 1341  intro ['a141', 'a307', 'a498']
+introduced ['a141']
+
+NODE: 542  intro ['a141', 'a307', 'a498', 'a61']
+introduced ['a61']
+
+NODE: 1494 leaf
+
+NODE: 1740  intro ['a144']
+introduced ['a144']
+
+NODE: 212  intro ['a144', 'a452']
+introduced ['a452']
+
+NODE: 769  rem -  ['a144']
+removed element a452
+tableminusrem
+
+NODE: 1224  intro ['a144', 'a307']
+introduced ['a307']
+
+NODE: 202  intro ['a144', 'a307', 'a313']
+introduced ['a313']
+
+NODE: 767  rem -  ['a307', 'a313']
+removed element a144
+tableminusrem
+
+NODE: 187  intro ['a307', 'a313', 'a61']
+introduced ['a61']
+
+NODE: 982  rem -  ['a307', 'a61']
+removed element a313
+tableminusrem
+
+NODE: 1340  intro ['a141', 'a307', 'a61']
+introduced ['a141']
+
+NODE: 541  intro ['a141', 'a307', 'a498', 'a61']
+introduced ['a498']
+
+NODE: 174  join
+----------------
+
+NODE: 757  rem -  ['a141', 'a498', 'a61']
+removed element a307
+tableminusrem
+
+NODE: 161  intro ['a141', 'a206', 'a498', 'a61']
+introduced ['a206']
+
+NODE: 968  rem -  ['a206', 'a498', 'a61']
+removed element a141
+tableminusrem
+
+NODE: 527  intro ['a206', 'a310', 'a498', 'a61']
+introduced ['a310']
+
+NODE: 1489 leaf
+
+NODE: 1729  intro ['a282']
+introduced ['a282']
+
+NODE: 1730  intro ['a282', 'a408']
+introduced ['a408']
+
+NODE: 201  intro ['a282', 'a408', 'a464']
+introduced ['a464']
+
+NODE: 766  rem -  ['a408', 'a464']
+removed element a282
+tableminusrem
+
+NODE: 186  intro ['a373', 'a408', 'a464']
+introduced ['a373']
+
+NODE: 763  rem -  ['a373', 'a464']
+removed element a408
+tableminusrem
+
+NODE: 173  intro ['a373', 'a464', 'a498']
+introduced ['a498']
+
+NODE: 756  rem -  ['a464', 'a498']
+removed element a373
+tableminusrem
+
+NODE: 160  intro ['a310', 'a464', 'a498']
+introduced ['a310']
+
+NODE: 967  rem -  ['a310', 'a498']
+removed element a464
+tableminusrem
+
+NODE: 1331  intro ['a206', 'a310', 'a498']
+introduced ['a206']
+
+NODE: 526  intro ['a206', 'a310', 'a498', 'a61']
+introduced ['a61']
+
+NODE: 147  join
+----------------
+
+NODE: 958  rem -  ['a206', 'a310', 'a61']
+removed element a498
+tableminusrem
+
+NODE: 1323  intro ['a206', 'a310', 'a320', 'a61']
+introduced ['a320']
+
+NODE: 517  intro ['a206', 'a310', 'a320', 'a417', 'a61']
+introduced ['a417']
+
+NODE: 1468 leaf
+
+NODE: 1684  intro ['a61']
+introduced ['a61']
+
+NODE: 146  intro ['a61', 'a95']
+introduced ['a95']
+
+NODE: 957  rem -  ['a61']
+removed element a95
+tableminusrem
+
+NODE: 1320  intro ['a206', 'a61']
+introduced ['a206']
+
+NODE: 1321  intro ['a206', 'a310', 'a61']
+introduced ['a310']
+
+NODE: 1322  intro ['a206', 'a310', 'a320', 'a61']
+introduced ['a320']
+
+NODE: 516  intro ['a206', 'a310', 'a320', 'a417', 'a61']
+introduced ['a417']
+
+NODE: 133  join
+----------------
+
+NODE: 1171  rem -  ['a310', 'a320', 'a417', 'a61']
+removed element a206
+tableminusrem
+
+NODE: 948  rem -  ['a310', 'a320', 'a417']
+removed element a61
+tableminusrem
+
+NODE: 1318  intro ['a172', 'a310', 'a320', 'a417']
+introduced ['a172']
+
+NODE: 507  intro ['a172', 'a310', 'a320', 'a364', 'a417']
+introduced ['a364']
+
+NODE: 124  join
+----------------
+
+NODE: 1170  rem -  ['a172', 'a310', 'a364', 'a417']
+removed element a320
+tableminusrem
+
+NODE: 943  rem -  ['a172', 'a310', 'a364']
+removed element a417
+tableminusrem
+
+NODE: 502  intro ['a172', 'a310', 'a364', 'a77']
+introduced ['a77']
+
+NODE: 1462 leaf
+
+NODE: 1669  intro ['a172']
+introduced ['a172']
+
+NODE: 1670  intro ['a172', 'a295']
+introduced ['a295']
+
+NODE: 123  intro ['a172', 'a295', 'a77']
+introduced ['a77']
+
+NODE: 942  rem -  ['a172', 'a77']
+removed element a295
+tableminusrem
+
+NODE: 1314  intro ['a172', 'a310', 'a77']
+introduced ['a310']
+
+NODE: 501  intro ['a172', 'a310', 'a364', 'a77']
+introduced ['a364']
+
+NODE: 114  join
+----------------
+
+NODE: 737  rem -  ['a310', 'a364', 'a77']
+removed element a172
+tableminusrem
+
+NODE: 106  intro ['a310', 'a364', 'a51', 'a77']
+introduced ['a51']
+
+NODE: 730  rem -  ['a310', 'a364', 'a51']
+removed element a77
+tableminusrem
+
+NODE: 1208  intro ['a270', 'a310', 'a364', 'a51']
+introduced ['a270']
+
+NODE: 92  intro ['a270', 'a310', 'a364', 'a483', 'a51']
+introduced ['a483']
+
+NODE: 923  rem -  ['a270', 'a310', 'a483', 'a51']
+removed element a364
+tableminusrem
+
+NODE: 482  intro ['a270', 'a310', 'a37', 'a483', 'a51']
+introduced ['a37']
+
+NODE: 1457 leaf
+
+NODE: 1656  intro ['a227']
+introduced ['a227']
+
+NODE: 1657  intro ['a227', 'a270']
+introduced ['a270']
+
+NODE: 1658  intro ['a227', 'a270', 'a310']
+introduced ['a310']
+
+NODE: 1659  intro ['a227', 'a270', 'a310', 'a349']
+introduced ['a349']
+
+NODE: 105  intro ['a227', 'a270', 'a310', 'a349', 'a483']
+introduced ['a483']
+
+NODE: 933  rem -  ['a227', 'a270', 'a310', 'a483']
+removed element a349
+tableminusrem
+
+NODE: 492  intro ['a227', 'a270', 'a310', 'a37', 'a483']
+introduced ['a37']
+
+NODE: 1456 leaf
+
+NODE: 1654  intro ['a227']
+introduced ['a227']
+
+NODE: 1655  intro ['a227', 'a244']
+introduced ['a244']
+
+NODE: 104  intro ['a227', 'a244', 'a310']
+introduced ['a310']
+
+NODE: 932  rem -  ['a227', 'a310']
+removed element a244
+tableminusrem
+
+NODE: 1301  intro ['a227', 'a270', 'a310']
+introduced ['a270']
+
+NODE: 1302  intro ['a227', 'a270', 'a310', 'a37']
+introduced ['a37']
+
+NODE: 491  intro ['a227', 'a270', 'a310', 'a37', 'a483']
+introduced ['a483']
+
+NODE: 91  join
+----------------
+
+NODE: 922  rem -  ['a270', 'a310', 'a37', 'a483']
+removed element a227
+tableminusrem
+
+NODE: 481  intro ['a270', 'a310', 'a37', 'a483', 'a51']
+introduced ['a51']
+
+NODE: 82  join
+----------------
+
+NODE: 1164  rem -  ['a270', 'a37', 'a483', 'a51']
+removed element a310
+tableminusrem
+
+NODE: 915  rem -  ['a270', 'a37', 'a51']
+removed element a483
+tableminusrem
+
+NODE: 474  intro ['a270', 'a274', 'a37', 'a51']
+introduced ['a274']
+
+NODE: 1449 leaf
+
+NODE: 1636  intro ['a270']
+introduced ['a270']
+
+NODE: 1637  intro ['a270', 'a274']
+introduced ['a274']
+
+NODE: 1638  intro ['a270', 'a274', 'a37']
+introduced ['a37']
+
+NODE: 81  intro ['a270', 'a274', 'a37', 'a383']
+introduced ['a383']
+
+NODE: 914  rem -  ['a270', 'a274', 'a37']
+removed element a383
+tableminusrem
+
+NODE: 473  intro ['a270', 'a274', 'a37', 'a51']
+introduced ['a51']
+
+NODE: 684  join
+----------------
+
+NODE: 1448 leaf
+
+NODE: 1633  intro ['a263']
+introduced ['a263']
+
+NODE: 1634  intro ['a263', 'a270']
+introduced ['a270']
+
+NODE: 1635  intro ['a263', 'a270', 'a274']
+introduced ['a274']
+
+NODE: 80  intro ['a263', 'a270', 'a274', 'a51']
+introduced ['a51']
+
+NODE: 913  rem -  ['a270', 'a274', 'a51']
+removed element a263
+tableminusrem
+
+NODE: 472  intro ['a270', 'a274', 'a37', 'a51']
+introduced ['a37']
+
+NODE: 74  join
+----------------
+
+NODE: 1121  rem -  ['a274', 'a37', 'a51']
+removed element a270
+tableminusrem
+
+NODE: 721  rem -  ['a274', 'a37']
+removed element a51
+tableminusrem
+
+NODE: 65  intro ['a274', 'a37', 'a89']
+introduced ['a89']
+
+NODE: 907  rem -  ['a37', 'a89']
+removed element a274
+tableminusrem
+
+NODE: 1280  intro ['a358', 'a37', 'a89']
+introduced ['a358']
+
+NODE: 1281  intro ['a358', 'a37', 'a431', 'a89']
+introduced ['a431']
+
+NODE: 466  intro ['a358', 'a37', 'a431', 'a45', 'a89']
+introduced ['a45']
+
+NODE: 56  join
+----------------
+
+NODE: 1120  rem -  ['a358', 'a431', 'a45', 'a89']
+removed element a37
+tableminusrem
+
+NODE: 713  rem -  ['a358', 'a431', 'a89']
+removed element a45
+tableminusrem
+
+NODE: 44  intro ['a358', 'a428', 'a431', 'a89']
+introduced ['a428']
+
+NODE: 894  rem -  ['a358', 'a428', 'a89']
+removed element a431
+tableminusrem
+
+NODE: 453  intro ['a358', 'a394', 'a428', 'a89']
+introduced ['a394']
+
+NODE: 1441 leaf
+
+NODE: 1617  intro ['a222']
+introduced ['a222']
+
+NODE: 1618  intro ['a222', 'a312']
+introduced ['a312']
+
+NODE: 55  intro ['a222', 'a312', 'a89']
+introduced ['a89']
+
+NODE: 712  rem -  ['a222', 'a89']
+
+[startup+282.301 s]
+/proc/loadavg: 1.13 1.20 1.18 2/796 222258
+/proc/meminfo: memFree=4955104/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=2342368 memory=2262372 CPUtime=277.63 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 919551 3285 0 0 26977 677 107 2 20 0 1 0 26067309 2398584832 565593 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 585592 565593 7616 688 0 563420 0
+Current children cumulated CPU time: 277.63 s
+Current children cumulated vsize: 2345264 KiB
+Current children cumulated memory: 2263908 KiB
+
+
+
+Maximum CPU time exceeded: sending SIGTERM then SIGKILL
+
+[startup+305.114 s]
+/proc/loadavg: 1.17 1.20 1.18 2/795 222262
+/proc/meminfo: memFree=4342140/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=2959840 memory=2869604 CPUtime=300.06 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 1071379 3285 0 0 29160 737 107 2 20 0 1 0 26067309 3030876160 717401 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 739960 717401 7616 688 0 717788 0
+Current children cumulated CPU time: 300.06 s
+Current children cumulated vsize: 2962736 KiB
+Current children cumulated memory: 2871140 KiB
+
+Sending SIGTERM to process tree (bottom up)
+Sleeping 2 seconds
+
+[startup+305.119 s]
+# the end of solver process 222171 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.001166 s, system=0 s
+
+[startup+305.217 s]
+# the end of solver process 222173 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=292.686 s, system=7.49412 s
+# this solver process was not waited by its parent and was adopted by runsolver
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+[startup+305.114 s]
+/proc/loadavg: 1.17 1.20 1.18 2/795 222262
+/proc/meminfo: memFree=4342140/16331364 swapFree=1287996/2097148
+[pid=222171] ppid=222170 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/222171/stat : 222171 (sh) S 222170 222171 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 26067309 2965504 384 18446744073709551615 109438164271104 109438164351381 140733936386048 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 109438164377328 109438164382240 109438189010944 140733936389120 140733936389263 140733936389263 140733936394224 0
+/proc/222171/statm: 724 384 384 20 0 92 0
+[pid=222173] ppid=222171 vsize=2959840 memory=2869604 CPUtime=300.06 cores=0
+/proc/222173/stat : 222173 (python3) R 222171 222171 169255 34816 172379 4194304 1071379 3285 0 0 29160 737 107 2 20 0 1 0 26067309 3030876160 717401 18446744073709551615 94336962760704 94336965575421 140735997199008 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 94336967936048 94336968220024 94336976490496 140735997205441 140735997205638 140735997205638 140735997210599 0
+/proc/222173/statm: 739960 717401 7616 688 0 717788 0
+Current children cumulated CPU time: 300.06 s
+Current children cumulated vsize: 2962736 KiB
+Current children cumulated memory: 2871140 KiB
+
+Child ended because it received signal 15 (SIGTERM)
+Real time (s): 305.217
+CPU time (s): 300.18
+CPU user time (s): 292.686
+CPU system time (s): 7.49412
+CPU usage (%): 98.3497
+Max. virtual memory (cumulated for all children) (KiB): 2962736
+Max. memory (cumulated for all children) (KiB): 2871140
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 292.686
+system time used= 7.49412
+maximum resident set size= 2869604
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 1074767
+page faults= 0
+swaps= 0
+block input operations= 0
+block output operations= 296
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 3760
+involuntary context switches= 20657
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 222171,222173
+#   total CPU time (s): 300.18
+#   total CPU user time (s): 292.686
+#   total CPU system time (s): 7.49412
+
+??? end of timestamper thread
+runsolver used 1.99277 second user time and 2.54101 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_td_python_dpbaf_dcom.sh /home/andreipopi/Documents/GitLab/pbaf-treedec/InstanceGenerator/instance_set/k5_n100_qa268_2.lp"
+	User time (seconds): 294.67
+	System time (seconds): 10.03
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:05.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2869604
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1075520
+	Voluntary context switches: 6820
+	Involuntary context switches: 21259
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 352
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,837 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 15948 MiB (7853 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_td_python_spbaf_cadm.sh /home/andreipopi/Documents/GitLab/pbaf-treedec/InstanceGenerator/instance_set/k5_n10_qa17_1.lp 
+
+running on 1 cores: 0
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.5.0-35-generic
+solver pid=227504, runsolver pid=227503
+Current StackSize limit: 8192 KiB
+
+
+[startup+0.100625 s]*
+/proc/loadavg: 1.13 1.21 1.18 2/791 227506
+/proc/meminfo: memFree=8018444/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=91144 memory=37512 CPUtime=0.09 cores=0
+/proc/227506/stat : 227506 (python3) R 227504 227504 169255 34816 172379 4194304 5247 0 0 0 8 1 0 0 20 0 1 0 27201699 93331456 9378 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 22786 9378 4768 688 0 5175 0
+Current children cumulated CPU time: 0.09 s
+Current children cumulated vsize: 94040 KiB
+Current children cumulated memory: 39048 KiB
+
+[startup+0.221515 s]*
+/proc/loadavg: 1.13 1.21 1.18 3/791 227506
+/proc/meminfo: memFree=8001056/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=123600 memory=61576 CPUtime=0.2 cores=0
+/proc/227506/stat : 227506 (python3) R 227504 227504 169255 34816 172379 4194304 9690 0 0 0 17 3 0 0 20 0 1 0 27201699 126566400 15394 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 30900 15394 6944 688 0 8919 0
+Current children cumulated CPU time: 0.2 s
+Current children cumulated vsize: 126496 KiB
+Current children cumulated memory: 63112 KiB
+
+[startup+0.318457 s]*
+/proc/loadavg: 1.13 1.21 1.18 2/793 227510
+/proc/meminfo: memFree=7992992/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=127448 memory=65032 CPUtime=0.25 cores=0
+/proc/227506/stat : 227506 (python3) S 227504 227504 169255 34816 172379 4194304 10435 1571 0 0 20 3 2 0 20 0 1 0 27201699 130506752 16258 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 2 1 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 31862 16258 7072 688 0 9690 0
+[pid=227509] ppid=227506 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227509/stat : 227509 (sh) S 227506 227504 169255 34816 172379 4194304 64 0 0 0 0 0 0 0 20 0 1 0 27201729 2965504 384 18446744073709551615 93948594311168 93948594391445 140733567692336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 93948594417392 93948594422304 93948622970880 140733567695900 140733567696015 140733567696015 140733567700976 0
+/proc/227509/statm: 724 384 384 20 0 92 0
+[pid=227510] ppid=227509 vsize=10872 memory=7552 CPUtime=0.02 cores=0
+/proc/227510/stat : 227510 (htd_main-1.2.0) R 227509 227504 169255 34816 172379 4194304 415 0 0 0 2 0 0 0 20 0 1 0 27201729 11132928 1888 18446744073709551615 105849345949696 105849345969989 140735974938560 0 0 0 0 0 16386 0 0 0 17 0 0 0 0 0 0 105849345980512 105849345982488 105849351086080 140735974947797 140735974947894 140735974947894 140735974952855 0
+/proc/227510/statm: 2718 1888 1600 5 0 203 0
+Current children cumulated CPU time: 0.27 s
+Current children cumulated vsize: 144112 KiB
+Current children cumulated memory: 75656 KiB
+
+[startup+0.70091 s]
+/proc/loadavg: 1.13 1.21 1.18 2/791 227510
+/proc/meminfo: memFree=7987700/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=134684 memory=74960 CPUtime=0.62 cores=0
+/proc/227506/stat : 227506 (python3) R 227504 227504 169255 34816 172379 4194304 12963 2056 0 0 53 4 5 0 20 0 1 0 27201699 137916416 18740 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 33671 18740 7648 688 0 11499 0
+Current children cumulated CPU time: 0.62 s
+Current children cumulated vsize: 137580 KiB
+Current children cumulated memory: 76496 KiB
+
+[startup+1.50123 s]
+/proc/loadavg: 1.12 1.20 1.18 3/791 227510
+/proc/meminfo: memFree=7987700/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=137456 memory=78032 CPUtime=1.37 cores=0
+/proc/227506/stat : 227506 (python3) R 227504 227504 169255 34816 172379 4194304 13719 2056 0 0 128 4 5 0 20 0 1 0 27201699 140754944 19508 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 34364 19508 7648 688 0 12192 0
+Current children cumulated CPU time: 1.37 s
+Current children cumulated vsize: 140352 KiB
+Current children cumulated memory: 79568 KiB
+
+[startup+3.12196 s]
+/proc/loadavg: 1.12 1.20 1.18 2/791 227540
+/proc/meminfo: memFree=7988104/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=142576 memory=82256 CPUtime=2.96 cores=0
+/proc/227506/stat : 227506 (python3) R 227504 227504 169255 34816 172379 4194304 14792 2056 0 0 287 4 5 0 20 0 1 0 27201699 145997824 20564 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 35644 20564 7648 688 0 13472 0
+Current children cumulated CPU time: 2.96 s
+Current children cumulated vsize: 145472 KiB
+Current children cumulated memory: 83792 KiB
+{'a0': 1, 'a1': 2, 'a10': 3, 'a11': 4, 'a12': 5}
+Largest bag size:  5
+constructed TD
+
+NODE: 148 leaf
+
+NODE: 172  intro ['a17']
+introduced ['a17']
+
+NODE: 173  intro ['a17', 'a31']
+introduced ['a31']
+
+NODE: 34  intro ['a17', 'a31', 'a46']
+introduced ['a46']
+
+NODE: 90  rem -  ['a17', 'a46']
+removed element a31
+tableminusrem
+
+NODE: 125  intro ['a12', 'a17', 'a46']
+introduced ['a12']
+
+NODE: 28  intro ['a12', 'a17', 'a18', 'a46']
+introduced ['a18']
+
+NODE: 112  rem -  ['a12', 'a18', 'a46']
+removed element a17
+tableminusrem
+
+NODE: 63  intro ['a12', 'a18', 'a46', 'a48']
+introduced ['a48']
+
+NODE: 145 leaf
+
+NODE: 167  intro ['a12']
+introduced ['a12']
+
+NODE: 168  intro ['a12', 'a30']
+introduced ['a30']
+
+NODE: 27  intro ['a12', 'a30', 'a48']
+introduced ['a48']
+
+NODE: 111  rem -  ['a12', 'a48']
+removed element a30
+tableminusrem
+
+NODE: 135  intro ['a12', 'a18', 'a48']
+introduced ['a18']
+
+NODE: 62  intro ['a12', 'a18', 'a46', 'a48']
+introduced ['a46']
+
+NODE: 75  join
+----------------
+
+NODE: 144 leaf
+
+NODE: 165  intro ['a12']
+introduced ['a12']
+
+NODE: 166  intro ['a12', 'a18']
+introduced ['a18']
+
+NODE: 26  intro ['a12', 'a18', 'a4']
+introduced ['a4']
+
+NODE: 110  rem -  ['a12', 'a18']
+removed element a4
+tableminusrem
+
+NODE: 134  intro ['a12', 'a18', 'a46']
+introduced ['a46']
+
+NODE: 61  intro ['a12', 'a18', 'a46', 'a48']
+introduced ['a48']
+
+NODE: 21  join
+----------------
+
+NODE: 107  rem -  ['a18', 'a46', 'a48']
+removed element a12
+tableminusrem
+
+NODE: 58  intro ['a18', 'a33', 'a46', 'a48']
+introduced ['a33']
+
+NODE: 153 leaf
+
+NODE: 179  intro ['a29']
+introduced ['a29']
+
+NODE: 180  intro ['a29', 'a40']
+introduced ['a40']
+
+NODE: 44  intro ['a29', 'a40', 'a5']
+introduced ['a5']
+
+NODE: 121  rem -  ['a29', 'a40']
+removed element a5
+tableminusrem
+
+NODE: 72  intro ['a29', 'a40', 'a9']
+introduced ['a9']
+
+NODE: 152 leaf
+
+NODE: 43  intro ['a21']
+introduced ['a21']
+
+NODE: 120  rem -  []
+removed element a21
+tableminusrem
+
+NODE: 138  intro ['a29']
+introduced ['a29']
+
+NODE: 139  intro ['a29', 'a40']
+introduced ['a40']
+
+NODE: 71  intro ['a29', 'a40', 'a9']
+introduced ['a9']
+
+NODE: 39  join
+----------------
+
+NODE: 92  rem -  ['a40', 'a9']
+removed element a29
+tableminusrem
+
+NODE: 33  intro ['a33', 'a40', 'a9']
+introduced ['a33']
+
+NODE: 89  rem -  ['a33', 'a9']
+removed element a40
+tableminusrem
+
+NODE: 25  intro ['a33', 'a42', 'a9']
+introduced ['a42']
+
+NODE: 109  rem -  ['a33', 'a42']
+removed element a9
+tableminusrem
+
+NODE: 60  intro ['a18', 'a33', 'a42']
+introduced ['a18']
+
+NODE: 150 leaf
+
+NODE: 176  intro ['a16']
+introduced ['a16']
+
+NODE: 177  intro ['a16', 'a27']
+introduced ['a27']
+
+NODE: 38  intro ['a16', 'a27', 'a44']
+introduced ['a44']
+
+NODE: 117  rem -  ['a16', 'a27']
+removed element a44
+tableminusrem
+
+NODE: 68  intro ['a16', 'a18', 'a27']
+introduced ['a18']
+
+NODE: 155 leaf
+
+NODE: 182  intro ['a14']
+introduced ['a14']
+
+NODE: 46  intro ['a14', 'a15']
+introduced ['a15']
+
+NODE: 95  rem -  ['a15']
+removed element a14
+tableminusrem
+
+NODE: 42  intro ['a15', 'a43']
+introduced ['a43']
+
+NODE: 93  rem -  ['a43']
+removed element a15
+tableminusrem
+
+NODE: 126  intro ['a16', 'a43']
+introduced ['a16']
+
+NODE: 37  intro ['a16', 'a27', 'a43']
+introduced ['a27']
+
+NODE: 116  rem -  ['a16', 'a27']
+removed element a43
+tableminusrem
+
+NODE: 67  intro ['a16', 'a18', 'a27']
+introduced ['a18']
+
+NODE: 76  join
+----------------
+
+NODE: 154 leaf
+
+NODE: 181  intro ['a32']
+introduced ['a32']
+
+NODE: 45  intro ['a32', 'a37']
+introduced ['a37']
+
+NODE: 94  rem -  ['a37']
+removed element a32
+tableminusrem
+
+NODE: 41  intro ['a34', 'a37']
+introduced ['a34']
+
+NODE: 119  rem -  ['a34']
+removed element a37
+tableminusrem
+
+NODE: 137  intro ['a16', 'a34']
+introduced ['a16']
+
+NODE: 70  intro ['a16', 'a18', 'a34']
+introduced ['a18']
+
+NODE: 151 leaf
+
+NODE: 178  intro ['a1']
+introduced ['a1']
+
+NODE: 40  intro ['a1', 'a34']
+introduced ['a34']
+
+NODE: 118  rem -  ['a34']
+removed element a1
+tableminusrem
+
+NODE: 136  intro ['a16', 'a34']
+introduced ['a16']
+
+NODE: 69  intro ['a16', 'a18', 'a34']
+introduced ['a18']
+
+NODE: 36  join
+----------------
+
+NODE: 115  rem -  ['a16', 'a18']
+removed element a34
+tableminusrem
+
+NODE: 66  intro ['a16', 'a18', 'a27']
+introduced ['a27']
+
+NODE: 32  join
+----------------
+
+NODE: 88  rem -  ['a18', 'a27']
+removed element a16
+tableminusrem
+
+NODE: 24  intro ['a18', 'a27', 'a42']
+introduced ['a42']
+
+NODE: 108  rem -  ['a18', 'a42']
+removed element a27
+tableminusrem
+
+NODE: 59  intro ['a18', 'a33', 'a42']
+introduced ['a33']
+
+NODE: 20  join
+----------------
+
+NODE: 106  rem -  ['a18', 'a33']
+removed element a42
+tableminusrem
+
+NODE: 133  intro ['a18', 'a33', 'a46']
+introduced ['a46']
+
+NODE: 57  intro ['a18', 'a33', 'a46', 'a48']
+introduced ['a48']
+
+NODE: 74  join
+----------------
+
+NODE: 147 leaf
+
+NODE: 171  intro ['a10']
+introduced ['a10']
+
+NODE: 31  intro ['a10', 'a36']
+introduced ['a36']
+
+NODE: 87  rem -  ['a10']
+removed element a36
+tableminusrem
+
+NODE: 23  intro ['a10', 'a8']
+introduced ['a8']
+
+NODE: 86  rem -  ['a8']
+removed element a10
+tableminusrem
+
+NODE: 19  intro ['a18', 'a8']
+introduced ['a18']
+
+NODE: 105  rem -  ['a18']
+removed element a8
+tableminusrem
+
+NODE: 131  intro ['a18', 'a33']
+introduced ['a33']
+
+NODE: 132  intro ['a18', 'a33', 'a46']
+introduced ['a46']
+
+NODE: 56  intro ['a18', 'a33', 'a46', 'a48']
+introduced ['a48']
+
+NODE: 16  join
+----------------
+
+NODE: 82  rem -  ['a33', 'a46', 'a48']
+removed element a18
+tableminusrem
+
+NODE: 11  intro ['a33', 'a46', 'a47', 'a48']
+introduced ['a47']
+
+NODE: 81  rem -  ['a33', 'a46', 'a47']
+removed element a48
+tableminusrem
+
+NODE: 8  intro ['a33', 'a41', 'a46', 'a47']
+introduced ['a41']
+
+NODE: 100  rem -  ['a33', 'a41', 'a47']
+removed element a46
+tableminusrem
+
+NODE: 51  intro ['a23', 'a33', 'a41', 'a47']
+introduced ['a23']
+
+NODE: 142 leaf
+
+NODE: 161  intro ['a11']
+introduced ['a11']
+
+NODE: 162  intro ['a11', 'a24']
+introduced ['a24']
+
+NODE: 15  intro ['a11', 'a24', 'a35']
+introduced ['a35']
+
+NODE: 104  rem -  ['a11', 'a24']
+removed element a35
+tableminusrem
+
+NODE: 55  intro ['a11', 'a24', 'a41']
+introduced ['a41']
+
+NODE: 141 leaf
+
+NODE: 159  intro ['a11']
+introduced ['a11']
+
+NODE: 160  intro ['a11', 'a24']
+introduced ['a24']
+
+NODE: 14  intro ['a11', 'a24', 'a7']
+introduced ['a7']
+
+NODE: 103  rem -  ['a11', 'a24']
+removed element a7
+tableminusrem
+
+NODE: 54  intro ['a11', 'a24', 'a41']
+introduced ['a41']
+
+NODE: 10  join
+----------------
+
+NODE: 80  rem -  ['a11', 'a41']
+removed element a24
+tableminusrem
+
+NODE: 7  intro ['a11', 'a23', 'a41']
+introduced ['a23']
+
+NODE: 99  rem -  ['a23', 'a41']
+removed element a11
+tableminusrem
+
+NODE: 128  intro ['a23', 'a33', 'a41']
+introduced ['a33']
+
+NODE: 50  intro ['a23', 'a33', 'a41', 'a47']
+introduced ['a47']
+
+NODE: 73  join
+----------------
+
+NODE: 143 leaf
+
+NODE: 163  intro ['a0']
+introduced ['a0']
+
+NODE: 164  intro ['a0', 'a13']
+introduced ['a13']
+
+NODE: 18  intro ['a0', 'a13', 'a28']
+introduced ['a28']
+
+NODE: 84  rem -  ['a0', 'a28']
+removed element a13
+tableminusrem
+
+NODE: 124  intro ['a0', 'a28', 'a3']
+introduced ['a3']
+
+NODE: 13  intro ['a0', 'a28', 'a3', 'a39']
+introduced ['a39']
+
+NODE: 102  rem -  ['a28', 'a3', 'a39']
+removed element a0
+tableminusrem
+
+NODE: 130  intro ['a22', 'a28', 'a3', 'a39']
+introduced ['a22']
+
+NODE: 53  intro ['a22', 'a28', 'a3', 'a33', 'a39']
+introduced ['a33']
+
+NODE: 149 leaf
+
+NODE: 174  intro ['a20']
+introduced ['a20']
+
+NODE: 175  intro ['a20', 'a45']
+introduced ['a45']
+
+NODE: 35  intro ['a20', 'a45', 'a49']
+introduced ['a49']
+
+NODE: 91  rem -  ['a20', 'a49']
+removed element a45
+tableminusrem
+
+NODE: 30  intro ['a20', 'a39', 'a49']
+introduced ['a39']
+
+NODE: 114  rem -  ['a39', 'a49']
+removed element a20
+tableminusrem
+
+NODE: 65  intro ['a38', 'a39', 'a49']
+introduced ['a38']
+
+NODE: 146 leaf
+
+NODE: 169  intro ['a38']
+introduced ['a38']
+
+NODE: 170  intro ['a38', 'a49']
+introduced ['a49']
+
+NODE: 29  intro ['a38', 'a49', 'a6']
+introduced ['a6']
+
+NODE: 113  rem -  ['a38', 'a49']
+removed element a6
+tableminusrem
+
+NODE: 64  intro ['a38', 'a39', 'a49']
+introduced ['a39']
+
+NODE: 22  join
+----------------
+
+NODE: 85  rem -  ['a38', 'a39']
+removed element a49
+tableminusrem
+
+NODE: 17  intro ['a19', 'a38', 'a39']
+introduced ['a19']
+
+NODE: 83  rem -  ['a19', 'a39']
+removed element a38
+
+[startup+6.30062 s]
+/proc/loadavg: 1.19 1.22 1.19 2/791 227543
+/proc/meminfo: memFree=7973500/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=159492 memory=98768 CPUtime=6.08 cores=0
+/proc/227506/stat : 227506 (python3) R 227504 227504 169255 34816 172379 4194304 18927 2056 0 0 598 5 5 0 20 0 1 0 27201699 163319808 24692 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 39873 24692 7648 688 0 17701 0
+Current children cumulated CPU time: 6.08 s
+Current children cumulated vsize: 162388 KiB
+Current children cumulated memory: 100304 KiB
+tableminusrem
+
+NODE: 123  intro ['a19', 'a28', 'a39']
+introduced ['a28']
+
+NODE: 12  intro ['a19', 'a28', 'a33', 'a39']
+introduced ['a33']
+
+NODE: 101  rem -  ['a28', 'a33', 'a39']
+removed element a19
+tableminusrem
+
+NODE: 129  intro ['a22', 'a28', 'a33', 'a39']
+introduced ['a22']
+
+NODE: 52  intro ['a22', 'a28', 'a3', 'a33', 'a39']
+introduced ['a3']
+
+NODE: 9  join
+----------------
+
+NODE: 79  rem -  ['a22', 'a28', 'a3', 'a33']
+removed element a39
+tableminusrem
+
+NODE: 6  intro ['a22', 'a26', 'a28', 'a3', 'a33']
+introduced ['a26']
+
+NODE: 78  rem -  ['a22', 'a26', 'a3', 'a33']
+removed element a28
+tableminusrem
+
+NODE: 4  intro ['a22', 'a23', 'a26', 'a3', 'a33']
+introduced ['a23']
+
+NODE: 122  rem -  ['a22', 'a23', 'a3', 'a33']
+removed element a26
+tableminusrem
+
+NODE: 97  rem -  ['a22', 'a23', 'a33']
+removed element a3
+tableminusrem
+
+NODE: 48  intro ['a22', 'a23', 'a33', 'a47']
+introduced ['a47']
+
+NODE: 140 leaf
+
+NODE: 157  intro ['a2']
+introduced ['a2']
+
+NODE: 158  intro ['a2', 'a22']
+introduced ['a22']
+
+NODE: 3  intro ['a2', 'a22', 'a25']
+introduced ['a25']
+
+NODE: 77  rem -  ['a22', 'a25']
+removed element a2
+tableminusrem
+
+NODE: 1  intro ['a22', 'a25', 'a47']
+introduced ['a47']
+
+NODE: 96  rem -  ['a22', 'a47']
+removed element a25
+tableminusrem
+
+NODE: 127  intro ['a22', 'a23', 'a47']
+introduced ['a23']
+
+NODE: 47  intro ['a22', 'a23', 'a33', 'a47']
+introduced ['a33']
+
+NODE: 2  join
+----------------
+
+NODE: 98  rem -  ['a23', 'a33', 'a47']
+removed element a22
+tableminusrem
+
+NODE: 49  intro ['a23', 'a33', 'a41', 'a47']
+introduced ['a41']
+
+NODE: 5  join
+----------------
+
+NODE: 183  rem -  ['a33', 'a41', 'a47']
+removed element a23
+tableminusrem
+
+NODE: 184  rem -  ['a41', 'a47']
+removed element a33
+tableminusrem
+
+NODE: 185  rem -  ['a47']
+removed element a41
+tableminusrem
+
+NODE: 156  rem -  []
+removed element a47
+tableminusrem
+RESULT 0.00047051464951707955
+
+[startup+9.28909 s]
+# the end of solver process 227504 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=8.92343 s, system=0.104691 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+[startup+6.40129 s]
+/proc/loadavg: 1.19 1.22 1.19 2/791 227543
+/proc/meminfo: memFree=7973500/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=161540 memory=101200 CPUtime=6.18 cores=0
+/proc/227506/stat : 227506 (python3) R 227504 227504 169255 34816 172379 4194304 19523 2056 0 0 608 5 5 0 20 0 1 0 27201699 165416960 25300 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 40385 25300 7648 688 0 18213 0
+Current children cumulated CPU time: 6.18 s
+Current children cumulated vsize: 164436 KiB
+Current children cumulated memory: 102736 KiB
+
+[startup+8.00097 s]*
+/proc/loadavg: 1.19 1.22 1.19 2/791 227543
+/proc/meminfo: memFree=7889584/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=216980 memory=154748 CPUtime=7.77 cores=0
+/proc/227506/stat : 227506 (python3) R 227504 227504 169255 34816 172379 4194304 41166 2056 0 0 764 8 5 0 20 0 1 0 27201699 222187520 38687 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 54245 38687 7648 688 0 32073 0
+Current children cumulated CPU time: 7.77 s
+Current children cumulated vsize: 219876 KiB
+Current children cumulated memory: 156284 KiB
+
+[startup+8.80074 s]
+/proc/loadavg: 1.19 1.22 1.19 2/791 227543
+/proc/meminfo: memFree=7889584/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=215956 memory=154404 CPUtime=8.54 cores=0
+/proc/227506/stat : 227506 (python3) R 227504 227504 169255 34816 172379 4194304 41168 2056 0 0 840 9 5 0 20 0 1 0 27201699 221138944 38601 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 53989 38601 7648 688 0 31817 0
+Current children cumulated CPU time: 8.54 s
+Current children cumulated vsize: 218852 KiB
+Current children cumulated memory: 155940 KiB
+
+[startup+9.20038 s]
+/proc/loadavg: 1.19 1.22 1.19 2/791 227546
+/proc/meminfo: memFree=7889584/16331364 swapFree=1279292/2097148
+[pid=227504] ppid=227503 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/227504/stat : 227504 (sh) S 227503 227504 169255 34816 172379 4194304 103 0 0 0 0 0 0 0 20 0 1 0 27201699 2965504 384 18446744073709551615 99569444442112 99569444522389 140731966170336 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 99569444548336 99569444553248 99569467297792 140731966172162 140731966172303 140731966172303 140731966177264 0
+/proc/227504/statm: 724 384 384 20 0 92 0
+[pid=227506] ppid=227504 vsize=215956 memory=154404 CPUtime=8.92 cores=0
+/proc/227506/stat : 227506 (python3) R 227504 227504 169255 34816 172379 4194304 41168 2056 0 0 878 9 5 0 20 0 1 0 27201699 221138944 38601 18446744073709551615 101242080178176 101242082992893 140736200069024 0 0 0 0 16781312 0 0 0 0 17 0 0 0 0 0 0 101242085353520 101242085637496 101242105823232 140736200076227 140736200076422 140736200076422 140736200081383 0
+/proc/227506/statm: 53989 38601 7648 688 0 31817 0
+Current children cumulated CPU time: 8.92 s
+Current children cumulated vsize: 218852 KiB
+Current children cumulated memory: 155940 KiB
+
+Child status: 0
+Real time (s): 9.28915
+CPU time (s): 9.02812
+CPU user time (s): 8.92343
+CPU system time (s): 0.104691
+CPU usage (%): 97.19
+Max. virtual memory (cumulated for all children) (KiB): 245480
+Max. memory (cumulated for all children) (KiB): 181264
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 8.92343
+system time used= 0.104691
+maximum resident set size= 179984
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 43387
+page faults= 0
+swaps= 0
+block input operations= 0
+block output operations= 48
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 401
+involuntary context switches= 1039
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 227504
+#   total CPU time (s): 9.02812
+#   total CPU user time (s): 8.92343
+#   total CPU system time (s): 0.104691
+
+??? end of timestamper thread
+runsolver used 0.129332 second user time and 0.094843 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_td_python_spbaf_cadm.sh /home/andreipopi/Documents/GitLab/pbaf-treedec/InstanceGenerator/instance_set/k5_n10_qa17_1.lp"
+	User time (seconds): 9.05
+	System time (seconds): 0.19
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 179984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43854
+	Voluntary context switches: 498
+	Involuntary context switches: 1084
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 96
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

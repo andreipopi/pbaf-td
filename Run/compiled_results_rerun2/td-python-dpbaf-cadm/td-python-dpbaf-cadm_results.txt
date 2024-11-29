@@ -1,0 +1,81 @@
+k3_n5_qa7_1.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.4544, #   total CPU user time (s): 4.72035
+k3_n5_qa13_2.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 1.0, #   total CPU user time (s): 3.1261
+k3_n5_qa3_3.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.4, #   total CPU user time (s): 10.1135
+k3_n5_qa5_4.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 1.0, #   total CPU user time (s): 7.73622
+k3_n10_qa23_1.lp.td-python-dpbaf-cadm,   3, td-python-dpbaf-cadm, RESULT 0.0038313216, #   total CPU user time (s): 2.05719
+k3_n10_qa7_2.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 0.27648, #   total CPU user time (s): 150.657
+k3_n10_qa13_3.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.456008, #   total CPU user time (s): 5.19889
+k3_n10_qa10_4.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 1.0, #   total CPU user time (s): 5.54684
+k3_n20_qa56_1.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.504, #   total CPU user time (s): 14.1262
+k3_n20_qa21_2.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 0.03067435008, #   total CPU user time (s): 76.6694
+k3_n20_qa47_3.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 0.0094750656, #   total CPU user time (s): 8.40967
+k3_n20_qa16_4.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.13746441002112, #   total CPU user time (s): 14.1855
+k3_n50_qa46_1.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 8.975921962391844e-06, #   total CPU user time (s): 53.159
+k3_n50_qa25_2.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 0.0017912925852642285, #   total CPU user time (s): 40.3347
+k3_n50_qa79_3.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 3.981336236148286e-05, #   total CPU user time (s): 207.331
+k3_n50_qa91_4.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 7.72939356128195e-08, #   total CPU user time (s): 50.0739
+k3_n75_qa136_1.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 2.952154595204346e-07, #   total CPU user time (s): 87.5434
+k3_n75_qa178_2.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 8.756103726206841e-08, #   total CPU user time (s): 74.6297
+k3_n75_qa55_3.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k3_n75_qa210_4.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 2.1860221799084387e-08, #   total CPU user time (s): 160.708
+k3_n100_qa29_1.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 2.6263834414647183e-10, #   total CPU user time (s): 196.916
+k3_n100_qa141_2.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 4.9195423011617167e-08, #   total CPU user time (s): 91.6129
+k3_n100_qa178_3.lp.td-python-dpbaf-cadm,  8,  td-python-dpbaf-cadm, TIMEOUT
+k3_n100_qa54_4.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 0.00010548130264559666, #   total CPU user time (s): 288.229
+k3_n150_qa256_1.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k3_n150_qa234_2.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 8.074004201751576e-08, #   total CPU user time (s): 282.29
+k3_n150_qa343_3.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k3_n150_qa278_4.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 1.9567167862186197e-16, #   total CPU user time (s): 239.971
+k4_n5_qa18_1.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 0.06171099648, #   total CPU user time (s): 2.19426
+k4_n5_qa11_2.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.9, #   total CPU user time (s): 4.30679
+k4_n5_qa8_3.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.0984, #   total CPU user time (s): 2.1232
+k4_n5_qa3_4.lp.td-python-dpbaf-cadm,   3, td-python-dpbaf-cadm, RESULT 1.0, #   total CPU user time (s): 0.890721
+k4_n10_qa1_1.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 1.0, #   total CPU user time (s): 9.88601
+k4_n10_qa28_2.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 0.0230523396096, #   total CPU user time (s): 67.0628
+k4_n10_qa8_3.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.08736, #   total CPU user time (s): 3.46801
+k4_n10_qa6_4.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.013914368, #   total CPU user time (s): 6.21943
+k4_n20_qa62_1.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 0.004241174898669213, #   total CPU user time (s): 26.157
+k4_n20_qa28_3.lp.td-python-dpbaf-cadm,   7, td-python-dpbaf-cadm, RESULT 0.127604, #   total CPU user time (s): 88.139
+k4_n20_qa57_4.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 0.0005944268081530316, #   total CPU user time (s): 47.4646
+k4_n50_qa80_1.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 8.69835351691492e-06, #   total CPU user time (s): 89.4432
+k4_n50_qa198_2.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 2.265291203776608e-05, #   total CPU user time (s): 123.35
+k4_n50_qa89_3.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 2.517077388029721e-05, #   total CPU user time (s): 155.851
+k4_n50_qa48_4.lp.td-python-dpbaf-cadm,unknown,  td-python-dpbaf-cadm, TIMEOUT
+k4_n75_qa162_1.lp.td-python-dpbaf-cadm,   7, td-python-dpbaf-cadm, RESULT 1.4501636884615772e-07, #   total CPU user time (s): 250.758
+k4_n75_qa80_2.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k4_n75_qa22_3.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k4_n75_qa54_4.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k4_n100_qa178_1.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k4_n100_qa314_3.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k4_n100_qa339_4.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k4_n150_qa365_1.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k4_n150_qa375_2.lp.td-python-dpbaf-cadm,  5,  td-python-dpbaf-cadm, TIMEOUT
+k4_n150_qa536_3.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k4_n150_qa178_4.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k5_n5_qa23_1.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.9, #   total CPU user time (s): 3.64216
+k5_n5_qa19_2.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 0.170772, #   total CPU user time (s): 3.69834
+k5_n5_qa1_3.lp.td-python-dpbaf-cadm,   4, td-python-dpbaf-cadm, RESULT 0.8, #   total CPU user time (s): 5.89268
+k5_n5_qa16_4.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 1.0, #   total CPU user time (s): 3.93204
+k5_n10_qa17_1.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 0.0005412241024344, #   total CPU user time (s): 8.63892
+k5_n10_qa29_2.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 0.1, #   total CPU user time (s): 244.772
+k5_n10_qa37_3.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 0.662559552, #   total CPU user time (s): 64.0964
+k5_n10_qa13_4.lp.td-python-dpbaf-cadm,   5, td-python-dpbaf-cadm, RESULT 0.068904, #   total CPU user time (s): 49.1246
+k5_n20_qa15_1.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k5_n20_qa13_2.lp.td-python-dpbaf-cadm,   7, td-python-dpbaf-cadm, RESULT 2.5530366458101577e-05, #   total CPU user time (s): 118.825
+k5_n20_qa55_3.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 8.218072261454608e-05, #   total CPU user time (s): 125.967
+k5_n20_qa82_4.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 0.0014643365158666783, #   total CPU user time (s): 240.939
+k5_n50_qa194_2.lp.td-python-dpbaf-cadm,   6, td-python-dpbaf-cadm, RESULT 5.726452924027555e-07, #   total CPU user time (s): 294.681
+k5_n50_qa180_3.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k5_n50_qa43_4.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k5_n75_qa3_1.lp.td-python-dpbaf-cadm,  6,  td-python-dpbaf-cadm, TIMEOUT
+k5_n75_qa319_2.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k5_n75_qa313_3.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k5_n75_qa144_4.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k5_n100_qa301_1.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k5_n100_qa268_2.lp.td-python-dpbaf-cadm,  8,  td-python-dpbaf-cadm, TIMEOUT
+k5_n100_qa492_3.lp.td-python-dpbaf-cadm,unknown,  td-python-dpbaf-cadm, TIMEOUT
+k5_n100_qa42_4.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k5_n150_qa60_1.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k5_n150_qa586_2.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
+k5_n150_qa499_3.lp.td-python-dpbaf-cadm,  8,  td-python-dpbaf-cadm, TIMEOUT
+k5_n150_qa613_4.lp.td-python-dpbaf-cadm,  7,  td-python-dpbaf-cadm, TIMEOUT
