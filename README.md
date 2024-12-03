@@ -39,7 +39,7 @@ python post_order_dpbaf_dadm.py instance.lp
 
 - htd compilation instructions
 - instance generator
-- systems set up for the the semantics described in the paper.
+- systems for the the semantics described in the paper.
 - instances used for the evaluation in the paper ("instance_set"), and other "known" instances.
 - preprocessing encodings.
 - raw results, automated results processing scripts, etc...
