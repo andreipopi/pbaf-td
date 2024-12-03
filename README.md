@@ -63,7 +63,7 @@ python post_order_dpbaf_dadm.py instance.lp
 
 ## Authors
 
-Andrei Popescu (TU Graz) and Johannes Wallner (TU Graz). For questions or comments contact andrei.popescu@ist.tugraz.at.
+Andrei Popescu (TU Graz) and Johannes Wallner (TU Graz). For questions or comments contact andrei.popescu@tugraz.at.
 
 ## License
 
