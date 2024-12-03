@@ -22,6 +22,8 @@ To run the system for some semantics, you need:
 - input_output.py (uses htd)
 - instance.lp
 
+Steps:
+
 1) Compile htd for your system.
 2) Set the correct path to htd in input_output.py.
 3) Call the system: python post_order_sem.py instance.lp
