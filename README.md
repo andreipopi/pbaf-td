@@ -9,7 +9,7 @@
 
 ## Problem
 
-PBAF-TD computes the probability of a set of arguments being an extension under some semantics in an abstract(a) or deductive (d) Probabilistic Bipolar Argumentation Framework (PBAF).
+PBAF-TD computes the probability of a set of arguments being an extension under some semantics in an abstract (a) or deductive (d) Probabilistic Bipolar Argumentation Framework (PBAF).
 
 
 ## Usage
@@ -44,10 +44,6 @@ python post_order_dpbaf_dadm.py instance.lp
 - preprocessing encodings.
 - raw results, automated results processing scripts, etc...
 - shell scripts to automatically run all systems for evaluation.
-
-## HTD Compilation
-
-See dedicated folder.
 
 ## Instance Format
 
