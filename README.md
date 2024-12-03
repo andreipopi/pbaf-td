@@ -8,22 +8,23 @@
 
 
 ## Problem
-pbaf-td computes the probability of a set of arguments being a \sigma extension in a Probabilistic Bipolar Argumentation Framework (PBAF).
+
+*pbaf-td* computes the probability of a set of arguments being an extension under some semantics in an abstract(a) or deductive (d) Probabilistic Bipolar Argumentation Framework (PBAF).
 
 
 ## Usage
 
-To run the system you need:
+To run the system for some semantics, you need:
 
 - compiled htd library (see CompilationHTD)
-- post_order.py
-- semantics.py 
+- post_order_sem.py
+- sem.py 
 - input_output.py (uses htd)
 - instance.lp
 
 1) Compile htd for your system.
 2) Set the correct path to htd in input_output.py.
-3) Call the system: python post_order.py instance.lp
+3) Call the system: python post_order_sem.py instance.lp
 
 ## Example Call
 
