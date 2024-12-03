@@ -9,7 +9,7 @@
 
 ## Problem
 
-*pbaf-td* computes the probability of a set of arguments being an extension under some semantics in an abstract(a) or deductive (d) Probabilistic Bipolar Argumentation Framework (PBAF).
+PBAF-TD computes the probability of a set of arguments being an extension under some semantics in an abstract(a) or deductive (d) Probabilistic Bipolar Argumentation Framework (PBAF).
 
 
 ## Usage
