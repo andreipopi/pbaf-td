@@ -1,0 +1,19 @@
+# GitHub Linguist configuration
+#
+# Pext contains the main Python implementations.
+# ASP preprocessing and C++ integration code are counted.
+# Benchmark instances and generated results are excluded.
+
+InstanceGenerator/Instances/** linguist-detectable=false
+InstanceGenerator/instance_set/** linguist-detectable=false
+
+*.csv linguist-detectable=false
+*.log linguist-detectable=false
+*.out linguist-detectable=false
+*.td linguist-detectable=false
+*.gr linguist-detectable=false
+
+*.lp linguist-language="Answer Set Programming"
+
+Pext/**/*.py linguist-language=Python
+Pext/**/*.py linguist-detectable=true
